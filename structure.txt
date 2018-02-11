@@ -1,0 +1,21 @@
+* Intro?
+  * log P measurements and implications
+
+* MHP:
+  * What is it?
+  * General form
+  * Force constants
+  * Distance functions
+
+* How does one calculate MHP on given molecules?
+  * Solvent accesible surface
+  * Evenly ditributed points on a sphere?
+  * Integration
+
+* Validation
+
+* Results
+  * Validtation
+  * Dynamic system
+
+* Concludsion
