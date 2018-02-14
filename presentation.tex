@@ -4,8 +4,14 @@
 
 \usepackage[version=4]{mhchem}
 \usepackage{graphicx}
+\usepackage{svg}
 \usepackage{empheq}
 \usepackage[many]{tcolorbox}
+
+\usefonttheme{professionalfonts}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{verbatim}
 
 \usepackage{tikz}
 \usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix}
@@ -38,6 +44,8 @@
 }
 
 \begin{document}
+\tikzstyle{every picture}+=[remember picture]
+\everymath{\displaystyle}
 
 \begin{frame}
     \titlepage
@@ -54,28 +62,40 @@
 \subsection{Potential}
 \subsubsection{General form}
 
-\begin{frame}{The MHP formula}
+\begin{frame}{The MHP Formula}
+
     \centering
-    \begin{figure}
-        \includegraphics[width=0.4\textwidth]{mhp_visual1.eps}
-    \end{figure}
+    \includesvg[scale=0.1]{mhp_visual1}
+
     \begin{equation*}
         \text{MHP}\left(\mathbf{x'}\right)=
-        \tikzmark[red1]{sum}{$\sum_{i=1}^{k}\limits$}
-        \tikzmark[red2]{force}{$f_i$}\color{black}\cdot
-        \tikzmark[red3]{distance}{$D\left(\left|\mathbf{x'}-\mathbf{x_i}\right|\right)$}
+        \tikz[baseline]{
+            \node[anchor=base] (sum)
+            {$\sum_{i=1}^{k}\limits$};
+        }\left[ 
+        \tikz[baseline]{
+            \node[anchor=base] (force)
+            {$f_i$};
+        } \cdot
+        \tikz[baseline]{
+            \node[anchor=base] (distance)
+            {$D\left(\mathbf{x}-\mathbf{x'}_i\right)$};
+        }\right]
     \end{equation*}
 
     \begin{tikzpicture}[overlay, remember picture,node distance=1.5cm]
-        \uncover<2-4>{\node[red1,xshift=1.0cm,yshift=0.5cm](sumdescr) [below left=of sum]{Summing over all atoms};}
-        \uncover<2-4>{\draw[red1,->,thick] (sumdescr) to [in=-90,out=90] (sum);}
+        \uncover<2->{\node[fill=blue!20, xshift=1.2cm, yshift=0.5cm] (sumdescr) [below left=of sum]{Summing over all atoms};}
+        \uncover<2->{\draw[->,thick] (sumdescr) to [in=-90,out=90] (sum);}
+        \uncover<2->{\node[fill=blue!20] at (sum) {$\sum_{i=1}^{k}\limits$};}
                         
-        \uncover<3-4>{\node[red2] (forcedescr) [below = of force]{Force constants};}
-        \uncover<3-4>{\draw[red2,->,thick] (forcedescr) to [in=-90,out=90] (force);}
+        \uncover<3->{\node[fill=red!20, yshift=-0.2cm] (forcedescr) [below = of force]{Force constants};}
+        \uncover<3->{\draw[->,thick] (forcedescr) to [in=-90,out=90] (force);}
+        \uncover<3->{\node[fill=red!20] at (force) {$f_i$};}
 
-        \uncover<4-4>{\node[red3,xshift=-2.0cm,yshift=0.5cm] (distancedescr) [below right = of distance]{Distance function};}
-        \uncover<4-4>{\draw[red3,->,thick] (distancedescr) to [in=-90,out=90] (distance.south);}
-    \end{tikzpicture}
+        \uncover<4->{\node[fill=green!20, xshift=-2.0cm,yshift=0.5cm] (distancedescr) [below right = of distance]{Distance function};}
+		\uncover<4->{\draw[->,thick] (distancedescr) to [in=-90,out=90] (distance.south);}
+        \uncover<4->{\node[fill=green!20] at (distance) {$D\left(\mathbf{x}-\mathbf{x'}_i\right)$};}
+	\end{tikzpicture}
 \end{frame}
 
 \subsubsection{Force constants}
@@ -89,11 +109,11 @@
         15  & $\ce{=CH_2}$      & -0.7866 \\
         36  & $\ce{R-CH-X}$     & -0.2405 \\
             & & \\
-            & \underline{H attached to}:                            &         \\
-        45  & $\ce{C_{sp^{3}}}$ having no X attached to next carbon &  0.7341 \\
-        46  & $\ce{C_{sp^{3}}, C_{sp^{2}}}$                         &  0.6301 \\
-        50  & Heteroatom                                            & -0.1036 \\
-        52  & $\ce{C_{sp^{3}}}$ having 1 X attached to next carbon  &  0.6666 \\
+            & \underline{H attached to}:                      &         \\
+        45  & $\ce{C_{sp^{3}}}$, no X attached to next carbon &  0.7341 \\
+        46  & $\ce{C_{sp^{3}}, C_{sp^{2}}}$                   &  0.6301 \\
+        50  & Heteroatom                                      & -0.1036 \\
+        52  & $\ce{C_{sp^{3}}}$, 1 X attached to next carbon  &  0.6666 \\
             & & \\
             & \underline{O in}: &         \\
         56  & Alcohol           & -0.3567 \\
@@ -130,6 +150,10 @@
 
 \subsubsection{Evenly distributed points}
 \begin{frame}{Evenly distributed points}
+    \centering
+    How to distribute $N$ points on a surface of a sphere?\\ ~\\ ~\\
+    \raggedright
+	\includesvg[scale=.2]{sphere_wireframe_coords}
 \end{frame}
 
 \subsubsection{Integration}

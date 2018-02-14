@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  11 FEB 2018 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  14 FEB 2018 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -908,6 +908,35 @@ stry (CN)
 \mhchem@option@minustextsidebearingleft=\dimen280
 \mhchem@option@minustextsidebearingright=\dimen281
 )
+(/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2017/05/23 v2.00b (include SVG pictures)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+) (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
+Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
+Package filehook Info: Package 'scrlfile' detected and compensated for on input
+ line 102.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+\c@svg@param@lastpage=\count315
+\c@svg@param@currpage=\count316
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
+
+)
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/empheq.sty
 Package: empheq 2017/03/31 v2.15 Emphasizing equations
 
@@ -920,7 +949,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count315
+\g_MT_multlinerow_int=\count317
 \l_MT_multwidth_dim=\dimen282
 \origjot=\skip76
 \l_MT_shortvdotswithinadjustabove_dim=\dimen283
@@ -930,13 +959,13 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen287
 \l_MT_below_shortintertext_sep=\dimen288
 )
-\l_EQ_equationtype_int=\count316
-\l_EQ_alignmentmode_int=\count317
+\l_EQ_equationtype_int=\count318
+\l_EQ_alignmentmode_int=\count319
 \l_EQ_totalwidth_dim=\dimen289
 \l_EQ_displaywidth_dim=\dimen290
 \l_EQ_temp_linewidth_dim=\dimen291
 \EmphEqdelimitershortfall=\dimen292
-\EmphEqdelimiterfactor=\count318
+\EmphEqdelimiterfactor=\count320
 \g_EQ_toptag_height_dim=\dimen293
 \g_EQ_bottomtag_depth_dim=\dimen294
 \g_EQ_toprow_height_dim=\dimen295
@@ -944,7 +973,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_EQ_widesttag_dim=\dimen297
 \EQ_mathdisplay_box=\box69
 \EQ_tag_box=\box70
-\g_EQ_temprow_int=\count319
+\g_EQ_temprow_int=\count321
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2017/07/05 version 4.10 text color boxes
@@ -983,9 +1012,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box73
 \tcb@lowerbox=\box74
 \tcb@phantombox=\box75
-\c@tcbbreakpart=\count320
-\c@tcblayer=\count321
-\tcolorbox@number=\count322
+\c@tcbbreakpart=\count322
+\c@tcblayer=\count323
+\tcolorbox@number=\count324
 \tcb@temp=\box76
 \tcb@temp=\box77
 \tcb@temp=\box78
@@ -995,9 +1024,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.10'
-\c@tcbrastercolumn=\count323
-\c@tcbrasterrow=\count324
-\c@tcbraster=\count325
+\c@tcbrastercolumn=\count325
+\c@tcbrasterrow=\count326
+\c@tcbraster=\count327
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '4.10'
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -1021,7 +1050,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count326
+\pgf@plot@mark@count=\count328
 \pgfplotmarksize=\dimen302
 )
 \tikz@lastx=\dimen303
@@ -1034,18 +1063,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box81
 \tikz@tempbox=\box82
 \tikz@tempbox@bg=\box83
-\tikztreelevel=\count327
-\tikznumberofchildren=\count328
-\tikznumberofcurrentchild=\count329
-\tikz@fig@count=\count330
+\tikztreelevel=\count329
+\tikznumberofchildren=\count330
+\tikznumberofcurrentchild=\count331
+\tikz@fig@count=\count332
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count331
-\pgfmatrixcurrentcolumn=\count332
-\pgf@matrix@numberofcolumns=\count333
+\pgfmatrixcurrentrow=\count333
+\pgfmatrixcurrentcolumn=\count334
+\pgf@matrix@numberofcolumns=\count335
 )
-\tikz@expandcount=\count334
+\tikz@expandcount=\count336
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1069,7 +1098,7 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '4.10'
 \tcbfitdim=\dimen309
 \tcb@lowerfitdim=\dimen310
 \tcb@upperfitdim=\dimen311
-\tcb@cur@hbadness=\count335
+\tcb@cur@hbadness=\count337
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '4.10'
 .................................................
@@ -1083,6 +1112,10 @@ Library (tcolorbox): 'tcbxparse.code.tex' version '4.10'
 . Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
 .................................................
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemeprof
+essionalfonts.sty) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
@@ -1190,26 +1223,29 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 29.
+(hyperref)                removing `\\' on input line 35.
 
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1246,16 +1282,16 @@ LaTeX Font Info:    ... okay on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count338
 \scratchdimen=\dimen313
 \scratchbox=\box108
-\nofMPsegments=\count337
-\nofMParguments=\count338
+\nofMPsegments=\count339
+\nofMParguments=\count340
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count339
+\MPscratchCnt=\count341
 \MPscratchDim=\dimen314
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1276,7 +1312,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box109
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1284,11 +1320,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count342
+\c@section@level=\count344
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write7
@@ -1322,14 +1358,14 @@ Dictionary: translator-theorem-dictionary, Language: English
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 40.
+. Activating mapping `default' on line 46.
 .................................................
  (./presentation.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1338,1145 +1374,623 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (./presentation.toc) [2
 
 ]
-Package epstopdf Info: Source file: <mhp_visual1.eps>
-(epstopdf)                    date: 2018-02-09 13:12:36
-(epstopdf)                    size: 185295 bytes
-(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-02-09 13:12:42
-(epstopdf)                    size: 74876 bytes
-(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
-to.pdf mhp_visual1.eps>
-(epstopdf)             \includegraphics on input line 79.
-Package epstopdf Info: Output file is already uptodate.
-<mhp_visual1-eps-converted-to.pdf, id=137, pagebox=cropbox, 874.26625pt x 715.6
-7375pt>
-File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
-<use mhp_visual1-eps-converted-to.pdf>
-Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 7
-9. on input line 79.
-Package pdftex.def Info: Requested size: 111.53314pt x 91.2936pt on input line 
-79.
+! Illegal parameter number in definition of \test.
+<to be read again> 
+                   1
+l.92     \end{equation*}
+                        
+? q
+OK, entering \batchmode...
+! Illegal parameter number in definition of \test.
+<to be read again> 
+                   1
+l.92     \end{equation*}
+                        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \test.
+<to be read again> 
+                   2
+l.92     \end{equation*}
+                        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \test.
+<to be read again> 
+                   3
+l.92     \end{equation*}
+                        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \test.
+<to be read again> 
+                   1
+l.92     \end{equation*}
+                        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \test.
+<to be read again> 
+                   2
+l.92     \end{equation*}
+                        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \test.
+<to be read again> 
+                   3
+l.92     \end{equation*}
+                        
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
+ input line 104.
+ (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
+<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=155, page=1, pagebox=cropbox, 873.8
+5297pt x 714.20274pt>
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
+ input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+52.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
+<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=156, page=2, pagebox=cropbox, 873.8
+5297pt x 714.20274pt>
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
+ input line 62. on input line 62.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+62.
+)
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
  [3
 
- <./mhp_visual1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <mhp_visual1.eps>
-(epstopdf)                    date: 2018-02-09 13:12:36
-(epstopdf)                    size: 185295 bytes
-(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-02-09 13:12:42
-(epstopdf)                    size: 74876 bytes
-(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
-to.pdf mhp_visual1.eps>
-(epstopdf)             \includegraphics on input line 79.
-Package epstopdf Info: Output file is already uptodate.
-File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
-<use mhp_visual1-eps-converted-to.pdf>
-Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 7
-9. on input line 79.
-Package pdftex.def Info: Requested size: 111.53314pt x 91.2936pt on input line 
-79.
+ <./svg-inkscape/mhp_visual1_svg-tex.pdf> <./svg-inkscape/mhp_visual1_svg-tex.p
+df
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/mhp_visual1_svg-tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>]
+Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
+ input line 104.
+ (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
+ input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+52.
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
+ input line 62. on input line 62.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+62.
+)
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
  [4
 
 ]
-Package epstopdf Info: Source file: <mhp_visual1.eps>
-(epstopdf)                    date: 2018-02-09 13:12:36
-(epstopdf)                    size: 185295 bytes
-(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-02-09 13:12:42
-(epstopdf)                    size: 74876 bytes
-(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
-to.pdf mhp_visual1.eps>
-(epstopdf)             \includegraphics on input line 79.
-Package epstopdf Info: Output file is already uptodate.
-File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
-<use mhp_visual1-eps-converted-to.pdf>
-Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 7
-9. on input line 79.
-Package pdftex.def Info: Requested size: 111.53314pt x 91.2936pt on input line 
-79.
+Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
+ input line 104.
+ (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
+ input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+52.
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
+ input line 62. on input line 62.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+62.
+)
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   1
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   2
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   3
+l.104 \end{frame}
+                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
  [5
 
 ]
-Package epstopdf Info: Source file: <mhp_visual1.eps>
-(epstopdf)                    date: 2018-02-09 13:12:36
-(epstopdf)                    size: 185295 bytes
-(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-02-09 13:12:42
-(epstopdf)                    size: 74876 bytes
-(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
-to.pdf mhp_visual1.eps>
-(epstopdf)             \includegraphics on input line 79.
-Package epstopdf Info: Output file is already uptodate.
-File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
-<use mhp_visual1-eps-converted-to.pdf>
-Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 7
-9. on input line 79.
-Package pdftex.def Info: Requested size: 111.53314pt x 91.2936pt on input line 
-79.
- [6
+Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
+ input line 104.
+ (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
+ input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+52.
+File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
+Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
+ input line 62. on input line 62.
+Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
+62.
+) [6
 
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-? q
-OK, entering \batchmode...
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ... \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...false #1}}\check@mathfonts }
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...t in math text}}\beamer@orig@text@ {#1}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\mathsm@sh #1#2->\setbox \z@ \hbox {$\m@th #1{#2}
-                                                 $}{}\finsm@sh 
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ... \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...false #1}}\check@mathfonts }
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...t in math text}}\beamer@orig@text@ {#1}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\mathsm@sh #1#2->\setbox \z@ \hbox {$\m@th #1{#2}
-                                                 $}{}\finsm@sh 
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ... \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...false #1}}\check@mathfonts }
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...t in math text}}\beamer@orig@text@ {#1}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\mathsm@sh #1#2->\setbox \z@ \hbox {$\m@th #1{#2}
-                                                 $}{}\finsm@sh 
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ... \displaystyle \f@size {#1}}
-                                                  {\textdef@ \textstyle \f@s...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \sf@...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  {\textdef@ \textstyle \ssf...
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
-                                                  }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...ize {\firstchoice@false #1}}
-                                                  \check@mathfonts }
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\beamer@orig@text@ ...false #1}}\check@mathfonts }
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\text@ ...t in math text}}\beamer@orig@text@ {#1}}
-                                                  
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\mathsm@sh #1#2->\setbox \z@ \hbox {$\m@th #1{#2}
-                                                 $}{}\finsm@sh 
-l.97 \end{frame}
-                
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   \group_end: 
-l.97 \end{frame}
-                
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   \group_end: 
-l.97 \end{frame}
-                
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   \group_end: 
-l.97 \end{frame}
-                
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.97 \end{frame}
-                
-(That makes 100 errors; please try again.) 
+Overfull \hbox (16.33942pt too wide) in paragraph at lines 129--129
+ [][] 
+ []
+
+ [7
+
+]
+<dist_funcs.pdf, id=359, pagebox=cropbox, 357.338pt x 248.96112pt>
+File: dist_funcs.pdf Graphic file (type pdf)
+<use dist_funcs.pdf>
+Package pdftex.def Info: dist_funcs.pdf  used on input line 149. on input line 
+149.
+Package pdftex.def Info: Requested size: 232.26694pt x 161.8228pt on input line
+ 149.
+ [8
+
+ <./dist_funcs.pdf>] [9
+
+]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 162.
+ (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+<./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, id=477, page=1, pagebox=cr
+opbox, 609.4302pt x 608.27103pt>
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 121.88417pt x 121.65204pt on input lin
+e 52.
+) [10
+
+ <./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf>] [11
+
+]
+\tf@nav=\write8
+\openout8 = `presentation.nav'.
+
+\tf@toc=\write9
+\openout9 = `presentation.toc'.
+
+\tf@snm=\write10
+\openout10 = `presentation.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+ (./presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
+
+Package rerunfilecheck Warning: File `presentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `presentation.out':
+(rerunfilecheck)             Before: CC0B5E6725D750BE53B379DED756C955;303
+(rerunfilecheck)             After:  A13F403202BF3057B831600EC5993E26;303.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 35645 strings out of 494350
- 770664 string characters out of 6168763
- 892272 words of memory out of 5000000
- 38496 multiletter control sequences out of 15000+600000
- 538921 words of font info for 54 fonts, out of 8000000 for 9000
+ 36612 strings out of 494350
+ 791642 string characters out of 6168763
+ 929324 words of memory out of 5000000
+ 39394 multiletter control sequences out of 15000+600000
+ 549299 words of font info for 62 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 61i,81n,95p,10375b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,17n,99p,10375b,1075s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Outline0.2.2.6} has been referenced but does not 
+exist, replaced by a fixed one
 
-!  ==> Fatal error occurred, no output PDF file produced!
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/helvetic/uhvr8a.pfb>
+Output written on presentation.pdf (11 pages, 319455 bytes).
+PDF statistics:
+ 790 PDF objects out of 1000 (max. 8388607)
+ 696 compressed objects within 7 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+
