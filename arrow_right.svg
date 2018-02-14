@@ -1,0 +1,2097 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="237.1554"
+   height="191.95311"
+   id="Sphere_wireframe_10deg_10r"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="arrow_right.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     id="namedview4311"
+     showgrid="false"
+     inkscape:zoom="0.59"
+     inkscape:cx="275.76714"
+     inkscape:cy="45.240855"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g17878-7"
+     showborder="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata4313">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Sphere wireframe</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title3898">Sphere wireframe</title>
+  <desc
+     id="desc3900">
+     Sphere wireframe
+     depicted with perspective projection
+
+     viewer distance from center: 10r
+     line distancd: 10°
+     line width: 2°
+     axial tilt: 37.5°
+     rotation: 7.5°
+     base color: #22326b
+
+     plotted with several adapted cubic bezier-curves
+     The plotcurves were calculated by some fancy python code. The bezier-curve
+     controlpoints are placed on tangents of the function-curve. They are
+     furthermore positioned in a way to minimize the average quadratic distance
+     between the bezier-curve and the function. This gives an accuracy, so that
+     the deviation is in no point greater than 0.00001.
+
+     about: http://commons.wikimedia.org/wiki/Image:Sphere_wireframe_10deg_10r.svg
+     source: http://commons.wikimedia.org/
+     rights: GNU Free Documentation license,
+             Creative Commons Attribution ShareAlike license
+  </desc>
+  <defs
+     id="defs3902">
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6694"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6670"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ee0b0b;fill-opacity:1;fill-rule:evenodd;stroke:#ee0b0b;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5179"
+       fy="-0.60000002"
+       fx="0.30000001"
+       r="1.2"
+       cy="-0.1"
+       cx="0.1">
+      <stop
+         offset="0"
+         style="stop-color:#9ba1c7;stop-opacity:1"
+         id="stop5171" />
+      <stop
+         offset="0.1"
+         style="stop-color:#989fc6;stop-opacity:1"
+         id="stop5173" />
+      <stop
+         offset="0.30000001"
+         style="stop-color:#9097c1;stop-opacity:1"
+         id="stop5175" />
+      <stop
+         offset="1"
+         style="stop-color:#7f87b8;stop-opacity:1"
+         id="stop5177" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5169"
+       fy="-0.60000002"
+       fx="0.30000001"
+       r="1.2"
+       cy="-0.1"
+       cx="0.1">
+      <stop
+         offset="0"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         id="stop5161" />
+      <stop
+         offset="0.1"
+         style="stop-color:#ab9999;stop-opacity:1"
+         id="stop5163" />
+      <stop
+         offset="0.30000001"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         id="stop5165" />
+      <stop
+         offset="1"
+         style="stop-color:#22326b;stop-opacity:1"
+         id="stop5167" />
+    </radialGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 400 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="800 : 400 : 1"
+       inkscape:persp3d-origin="400 : 266.66667 : 1"
+       id="perspective4315" />
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="LightSpot_front"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop3905"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3907"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop3909"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop3911"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="LightSpot_back"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop3914"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3916"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop3918"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop3920"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <inkscape:perspective
+       id="perspective4335"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4389"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4451"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5115"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="LightSpot_back-6"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop3914-7"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3916-5"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop3918-3"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop3920-5"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10390"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10382"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10384"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10386"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10388"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10401"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10393"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10395"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10397"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10399"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10412"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10404"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10406"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10408"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10410"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10423"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10415"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10417"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10419"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10421"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10434"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10426"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10428"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10430"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10432"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10445"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10437"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10439"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10441"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10443"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10456"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10448"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10450"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10452"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10454"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10467"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10459"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10461"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10463"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10465"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10478"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10470"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10472"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10474"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10476"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10489"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10481"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10483"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10485"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10487"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10500"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10492"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10494"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10496"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10498"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10511"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10503"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10505"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10507"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10509"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10522"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10514"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10516"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10518"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10520"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10533"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10525"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10527"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10529"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10531"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10544"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10536"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10538"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10540"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10542"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10555"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10547"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10549"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10551"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10553"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10566"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10558"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10560"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10562"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10564"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10577"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10569"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10571"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10573"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10575"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10588"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10580"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10582"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10584"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10586"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10599"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10591"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10593"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10595"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10597"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10610"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10602"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10604"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10606"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10608"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10621"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10613"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10615"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10617"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10619"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10632"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10624"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10626"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10628"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10630"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10643"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10635"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10637"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10639"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10641"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10654"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10646"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10648"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10650"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10652"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10665"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10657"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10659"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10661"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10663"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10676"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10668"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10670"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10672"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10674"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10687"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10679"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10681"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10683"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10685"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10698"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10690"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10692"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10694"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10696"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10709"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10701"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10703"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10705"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10707"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10720"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10712"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10714"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10716"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10718"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="0.1"
+       cy="-0.1"
+       r="1.2"
+       fx="0.30000001"
+       fy="-0.60000002"
+       id="radialGradient10731"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10723"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10725"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10727"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10729"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="LightSpot_front-2"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop3905-9"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3907-3"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop3909-1"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop3911-9"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10748"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10740"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10742"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10744"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10746"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10759"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10751"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10753"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10755"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10757"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10770"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10762"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10764"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10766"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10768"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10781"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10773"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10775"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10777"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10779"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10792"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10784"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10786"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10788"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10790"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10803"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10795"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10797"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10799"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10801"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10814"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10806"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10808"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10810"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10812"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10825"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10817"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10819"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10821"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10823"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10836"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10828"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10830"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10832"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10834"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10847"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10839"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10841"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10843"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10845"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10858"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10850"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10852"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10854"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10856"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10869"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10861"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10863"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10865"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10867"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10880"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10872"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10874"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10876"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10878"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10891"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10883"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10885"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10887"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10889"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10902"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10894"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10896"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10898"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10900"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10913"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10905"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10907"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10909"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10911"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10924"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10916"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10918"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10920"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10922"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10935"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10927"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10929"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10931"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10933"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10946"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10938"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10940"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10942"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10944"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10957"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10949"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10951"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10953"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10955"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10968"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10960"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10962"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10964"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10966"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10979"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10971"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10973"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10975"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10977"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient10990"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10982"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10984"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10986"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10988"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11001"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop10993"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop10995"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop10997"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop10999"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11012"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop11004"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop11006"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop11008"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop11010"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11023"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop11015"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop11017"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop11019"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop11021"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11034"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop11026"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop11028"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop11030"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop11032"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11045"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop11037"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop11039"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop11041"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop11043"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11056"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop11048"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop11050"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop11052"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop11054"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11067"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop11059"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop11061"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop11063"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop11065"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="-0.1"
+       cy="0.1"
+       r="1.2"
+       fx="-0.30000001"
+       fy="0.60000002"
+       id="radialGradient11078"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop11070"
+         style="stop-color:#b6bbce;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop11072"
+         style="stop-color:#8a94ba;stop-opacity:1"
+         offset="0.1" />
+      <stop
+         id="stop11074"
+         style="stop-color:#5f6c99;stop-opacity:1"
+         offset="0.30000001" />
+      <stop
+         id="stop11076"
+         style="stop-color:#22326b;stop-opacity:1"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5179-7"
+       fy="-0.60000002"
+       fx="0.30000001"
+       r="1.2"
+       cy="-0.1"
+       cx="0.1">
+      <stop
+         offset="0"
+         style="stop-color:#9ba1c7;stop-opacity:1"
+         id="stop5171-4" />
+      <stop
+         offset="0.1"
+         style="stop-color:#989fc6;stop-opacity:1"
+         id="stop5173-4" />
+      <stop
+         offset="0.30000001"
+         style="stop-color:#9097c1;stop-opacity:1"
+         id="stop5175-3" />
+      <stop
+         offset="1"
+         style="stop-color:#7f87b8;stop-opacity:1"
+         id="stop5177-0" />
+    </radialGradient>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6694-8"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="linearGradient4133"
+       inkscape:collect="always">
+      <stop
+         id="stop4135"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop4137"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4274"
+       inkscape:collect="always">
+      <stop
+         id="stop4276"
+         offset="0"
+         style="stop-color:#ff5555;stop-opacity:1;" />
+      <stop
+         id="stop4278"
+         offset="1"
+         style="stop-color:#ff5555;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       y2="338.38708"
+       x2="398.93594"
+       y1="301.92294"
+       x1="398.93594"
+       gradientTransform="matrix(0.6571231,0,0,0.5650351,-45.93514,-110.42695)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5930"
+       xlink:href="#linearGradient4133"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="337.21255"
+       x2="398.93594"
+       y1="309.63522"
+       x1="398.93594"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5935"
+       xlink:href="#linearGradient4133"
+       inkscape:collect="always"
+       gradientTransform="matrix(0.7399381,0,0,0.6859433,-79.83305,-51.061655)" />
+    <linearGradient
+       y2="335.59448"
+       x2="520"
+       y1="283.59448"
+       x1="520"
+       gradientTransform="matrix(0.3538462,0,0,0.3333333,-395.97049,75.781924)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5945"
+       xlink:href="#linearGradient4133"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="337.21255"
+       x2="398.93594"
+       y1="309.63522"
+       x1="398.93594"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5951"
+       xlink:href="#linearGradient4133"
+       inkscape:collect="always"
+       gradientTransform="matrix(1.1629702,0,0,1,-491.71915,-295.05989)" />
+    <clipPath
+       id="clipPath17880"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17882"
+         d="M 666.145,1545.15 518.059,1688.3 c -5.063,4.97 -13.024,6.44 -19.836,3.79 -6.821,-2.62 -11.172,-9.09 -11.172,-16.26 v -76.4 H 274.316 v -133.48 h 212.735 v -76.39 c 0,-7.22 4.351,-13.65 11.172,-16.31 2.285,-0.91 4.699,-1.29 6.992,-1.29 4.723,0 9.473,1.69 12.844,5.11 l 148.086,143.14 c 3.425,3.38 5.293,7.76 5.293,12.48 0,4.54 -1.868,9.11 -5.293,12.46 z" />
+    </clipPath>
+    <linearGradient
+       xlink:href="#linearGradient4274"
+       id="linearGradient17884"
+       spreadMethod="pad"
+       gradientTransform="matrix(397.119,0,0,-397.119,274.316,1532.68)"
+       gradientUnits="userSpaceOnUse"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0">
+      <stop
+         id="stop17886"
+         offset="0"
+         style="stop-opacity:1;stop-color:#6da7ee" />
+      <stop
+         id="stop17888"
+         offset="0.68037677"
+         style="stop-opacity:1;stop-color:#6a93e8" />
+      <stop
+         id="stop17890"
+         offset="0.962441"
+         style="stop-opacity:1;stop-color:#6d8fff" />
+      <stop
+         id="stop17892"
+         offset="1"
+         style="stop-opacity:1;stop-color:#6b73ff" />
+    </linearGradient>
+    <clipPath
+       id="clipPath17880-0"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17882-6"
+         d="M 666.145,1545.15 518.059,1688.3 c -5.063,4.97 -13.024,6.44 -19.836,3.79 -6.821,-2.62 -11.172,-9.09 -11.172,-16.26 v -76.4 H 274.316 v -133.48 h 212.735 v -76.39 c 0,-7.22 4.351,-13.65 11.172,-16.31 2.285,-0.91 4.699,-1.29 6.992,-1.29 4.723,0 9.473,1.69 12.844,5.11 l 148.086,143.14 c 3.425,3.38 5.293,7.76 5.293,12.48 0,4.54 -1.868,9.11 -5.293,12.46 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath17880-0-3"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17882-6-6"
+         d="M 666.145,1545.15 518.059,1688.3 c -5.063,4.97 -13.024,6.44 -19.836,3.79 -6.821,-2.62 -11.172,-9.09 -11.172,-16.26 v -76.4 H 274.316 v -133.48 h 212.735 v -76.39 c 0,-7.22 4.351,-13.65 11.172,-16.31 2.285,-0.91 4.699,-1.29 6.992,-1.29 4.723,0 9.473,1.69 12.844,5.11 l 148.086,143.14 c 3.425,3.38 5.293,7.76 5.293,12.48 0,4.54 -1.868,9.11 -5.293,12.46 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath17880-6"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17882-62"
+         d="M 666.145,1545.15 518.059,1688.3 c -5.063,4.97 -13.024,6.44 -19.836,3.79 -6.821,-2.62 -11.172,-9.09 -11.172,-16.26 v -76.4 H 274.316 v -133.48 h 212.735 v -76.39 c 0,-7.22 4.351,-13.65 11.172,-16.31 2.285,-0.91 4.699,-1.29 6.992,-1.29 4.723,0 9.473,1.69 12.844,5.11 l 148.086,143.14 c 3.425,3.38 5.293,7.76 5.293,12.48 0,4.54 -1.868,9.11 -5.293,12.46 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath17880-6-6"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17882-62-4"
+         d="M 666.145,1545.15 518.059,1688.3 c -5.063,4.97 -13.024,6.44 -19.836,3.79 -6.821,-2.62 -11.172,-9.09 -11.172,-16.26 v -76.4 H 274.316 v -133.48 h 212.735 v -76.39 c 0,-7.22 4.351,-13.65 11.172,-16.31 2.285,-0.91 4.699,-1.29 6.992,-1.29 4.723,0 9.473,1.69 12.844,5.11 l 148.086,143.14 c 3.425,3.38 5.293,7.76 5.293,12.48 0,4.54 -1.868,9.11 -5.293,12.46 z" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17884"
+       id="linearGradient19795"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(397.119,0,0,-397.119,274.316,1532.68)"
+       x1="0.28944981"
+       y1="-0.0071469094"
+       x2="1"
+       y2="0"
+       spreadMethod="pad" />
+  </defs>
+  <g
+     id="g6013"
+     transform="matrix(-1.0666667,0,0,1.0666667,1064.315,1131.0704)">
+    <g
+       id="g6130"
+       transform="translate(0,5.021433)">
+      <g
+         id="g5446-8"
+         transform="translate(286.08559,-382.98782)" />
+    </g>
+  </g>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot19226"
+     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="matrix(1.0666667,0,0,1.0666667,-719.59119,649.11718)"><flowRegion
+       id="flowRegion19228"><rect
+         id="rect19230"
+         width="215.71428"
+         height="50"
+         x="1151.4286"
+         y="184.09895" /></flowRegion><flowPara
+       id="flowPara19232"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:60px;line-height:125%;font-family:Alef;-inkscape-font-specification:'Alef, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start">אלכהל דיהידרוגנאז</flowPara></flowRoot>  <g
+     transform="matrix(0.34018538,0,0,0.34018538,-95.8088,-740.11034)"
+     id="g17876-1"
+     style="stroke:#000000;stroke-width:12.63851643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+    <g
+       id="g17878-7"
+       clip-path="url(#clipPath17880-6)"
+       style="stroke:#000000;stroke-width:12.63851643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.75547,0,0,1.75547,-199.91648,-232.82571)">
+      <path
+         d="M 666.145,1545.15 518.059,1688.3 c -5.063,4.97 -13.024,6.44 -19.836,3.79 -6.821,-2.62 -11.172,-9.09 -11.172,-16.26 v -76.4 H 274.316 v -133.48 h 212.735 v -76.39 c 0,-7.22 4.351,-13.65 11.172,-16.31 2.285,-0.91 4.699,-1.29 6.992,-1.29 4.723,0 9.473,1.69 12.844,5.11 l 148.086,143.14 c 3.425,3.38 5.293,7.76 5.293,12.48 0,4.54 -1.868,9.11 -5.293,12.46"
+         style="fill:url(#linearGradient19795);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:15.82225822;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path17894-8"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

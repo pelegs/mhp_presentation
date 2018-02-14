@@ -14,7 +14,7 @@
 \usepackage{verbatim}
 
 \usepackage{tikz}
-\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix}
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math}
 \tikzset{>=stealth}
 \newcommand{\tikzmark}[3][]{\tikz[remember picture,baseline] \node [anchor=base,#1,](#2) {#3};}
 
@@ -151,9 +151,75 @@
 \subsubsection{Evenly distributed points}
 \begin{frame}{Evenly distributed points}
     \centering
-    How to distribute $N$ points on a surface of a sphere?\\ ~\\ ~\\
-    \raggedright
-	\includesvg[scale=.2]{sphere_wireframe_coords}
+    How to distribute $N^{2}$ points on a surface of a sphere?\\ ~\\ ~\\
+    \begin{columns}
+        \uncover<1->{
+        \begin{column}{0.4\textwidth}
+        \centering
+	        \includesvg[scale=.17]{sphere_wireframe_coords}\\
+        \end{column}
+        }
+        
+        \uncover<4->{
+        \begin{column}{0.2\textwidth}
+        \centering
+	        \includesvg[scale=.17]{arrow_right}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+        \centering
+	        \includesvg[scale=.17]{sphere_wireframe_points}
+        \end{column}
+    }
+    \end{columns}
+    \begin{columns}
+        \begin{column}{0.4\textwidth}
+            \begin{itemize}
+                \uncover<2->{\item[] $\varphi_{i}=i\cdot\frac{2\pi}{N}$}
+                \uncover<3->{\item[] $\theta_{j}=j\cdot\frac{\pi}{N}$}
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.2\textwidth}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \begin{itemize}
+                \uncover<5->{\item Points are not evenly distributed}
+                \uncover<6->{\item Several points overlap at poles}
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Evenly distributed points}
+    \centering
+    Solution: Vogel's method\\
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \uncover<1->{In 2 dimensions:}
+            \begin{itemize}
+                \uncover<2->{\item Distances: $r_{i}=\sqrt{\frac{i}{N}}$}
+                \uncover<3->{\item Angle: $\theta_{i}=\varphi i$
+                			 \item[] ($\varphi$ is the golden ratio!)}
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+			\centering
+			\uncover<4->{\includesvg[scale=0.35]{vogels}}
+        \end{column}
+    \end{columns}
+    ~\\ ~\\
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \uncover<5->{In 3 dimensions (cylindrical coordinates):}
+            \begin{itemize}
+                \uncover<6->{\item Distances: $z_{i}=\left(1-\frac{1}{N}\right)\left(1-\frac{2i}{N-1}\right)$}
+                \uncover<7->{\item Angles: $\theta_{i}=\varphi i,\ \rho_{i}=\sqrt{1-z_{i}^{2}}$}
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+			\centering
+			\uncover<8->{\includegraphics[scale=.4]{3d_vogels.png}}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \subsubsection{Integration}

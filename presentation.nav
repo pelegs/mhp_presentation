@@ -24,13 +24,15 @@
 \headcommand {\slideentry {2}{2}{1}{9/9}{Surface}{0}}
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\beamer@subsubsectionentry {0}{2}{2}{2}{10}{Evenly distributed points}}
-\headcommand {\slideentry {2}{2}{2}{10/10}{Surface}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@subsubsectionentry {0}{2}{2}{3}{11}{Integration}}
-\headcommand {\slideentry {2}{2}{3}{11/11}{Surface}{0}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {9}{11}}
-\headcommand {\beamer@sectionpages {3}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\def \inserttotalframenumber {8}}
+\headcommand {\slideentry {2}{2}{2}{10/15}{Surface}{0}}
+\headcommand {\beamer@framepages {10}{15}}
+\headcommand {\slideentry {2}{2}{3}{16/16}{Surface}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{3}{17}{Integration}}
+\headcommand {\slideentry {2}{2}{4}{17/17}{Surface}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@partpages {1}{17}}
+\headcommand {\beamer@subsectionpages {9}{17}}
+\headcommand {\beamer@sectionpages {3}{17}}
+\headcommand {\beamer@documentpages {17}}
+\headcommand {\def \inserttotalframenumber {9}}

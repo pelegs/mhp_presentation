@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.2, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'sphere_wireframe_coords_svg-tex.pdf' (pdf, eps, ps)
+%% Accompanies image file 'arrow_right_svg-tex.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{607.14146572bp}%
+    \setlength{\unitlength}{177.86654439bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,7 +48,8 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.99811756)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{sphere_wireframe_coords_svg-tex.pdf}}%
+  \begin{picture}(1,0.80939806)%
+    \put(2.14458266,-2.75573023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.97022963\unitlength}\raggedright \end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{arrow_right_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%

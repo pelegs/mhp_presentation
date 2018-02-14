@@ -8,4 +8,4 @@
 \beamer@subsectionintoc {2}{2}{Surface}{9}{0}{2}
 \beamer@subsubsectionintoc {2}{2}{1}{Solvent accesible surface}{9}{0}{2}
 \beamer@subsubsectionintoc {2}{2}{2}{Evenly distributed points}{10}{0}{2}
-\beamer@subsubsectionintoc {2}{2}{3}{Integration}{11}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{3}{Integration}{17}{0}{2}

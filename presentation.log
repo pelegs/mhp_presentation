@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  14 FEB 2018 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  14 FEB 2018 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,6 +1221,12 @@ File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
 zlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 )
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymath.code.tex
+\tikz@math@for@depth=\count338
+\tikz@math@dimen=\dimen313
+\tikz@math@toks=\toks47
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 35.
@@ -1282,17 +1288,17 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
-\scratchdimen=\dimen313
+\scratchcounter=\count339
+\scratchdimen=\dimen314
 \scratchbox=\box108
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count341
-\MPscratchDim=\dimen314
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks48
+\nofMPsegments=\count340
+\nofMParguments=\count341
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count342
+\MPscratchDim=\dimen315
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1320,7 +1326,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count344
+\c@section@level=\count345
 )
 LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
@@ -1374,342 +1380,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (./presentation.toc) [2
 
 ]
-! Illegal parameter number in definition of \test.
-<to be read again> 
-                   1
-l.92     \end{equation*}
-                        
-? q
-OK, entering \batchmode...
-! Illegal parameter number in definition of \test.
-<to be read again> 
-                   1
-l.92     \end{equation*}
-                        
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \test.
-<to be read again> 
-                   2
-l.92     \end{equation*}
-                        
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \test.
-<to be read again> 
-                   3
-l.92     \end{equation*}
-                        
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \test.
-<to be read again> 
-                   1
-l.92     \end{equation*}
-                        
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \test.
-<to be read again> 
-                   2
-l.92     \end{equation*}
-                        
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \test.
-<to be read again> 
-                   3
-l.92     \end{equation*}
-                        
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \iterate.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
 Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 104.
- (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
-<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=155, page=1, pagebox=cropbox, 873.8
-5297pt x 714.20274pt>
+ input line 99.
+
+(./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
+<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=155, page=1, pagebox=cropbox, 1038.
+53609pt x 677.36597pt>
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
  input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-52.
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 52.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
-<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=156, page=2, pagebox=cropbox, 873.8
-5297pt x 714.20274pt>
+<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=156, page=2, pagebox=cropbox, 1038.
+53609pt x 677.36597pt>
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
  input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-62.
-)
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
- [3
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 62.
+) [3
 
  <./svg-inkscape/mhp_visual1_svg-tex.pdf> <./svg-inkscape/mhp_visual1_svg-tex.p
 df
@@ -1718,221 +1411,313 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/mhp_visual1_svg-tex.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
 Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 104.
+ input line 99.
  (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
  input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-52.
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 52.
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
  input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-62.
-)
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
- [4
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 62.
+) [4
 
 ]
 Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 104.
- (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
+ input line 99.
+
+(./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
  input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-52.
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 52.
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
  input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-62.
-)
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   1
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   2
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \beamer@doifinframe.
-<to be read again> 
-                   3
-l.104 \end{frame}
-                 
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
- [5
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 62.
+) [5
 
 ]
 Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 104.
- (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
+ input line 99.
+
+(./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
  input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-52.
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 52.
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
  input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 87.39063pt x 71.42445pt on input line 
-62.
+Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
+ 62.
 ) [6
 
-]
-Overfull \hbox (16.33942pt too wide) in paragraph at lines 129--129
- [][] 
- []
-
- [7
+] [7
 
 ]
-<dist_funcs.pdf, id=359, pagebox=cropbox, 357.338pt x 248.96112pt>
+<dist_funcs.pdf, id=362, pagebox=cropbox, 357.338pt x 248.96112pt>
 File: dist_funcs.pdf Graphic file (type pdf)
 <use dist_funcs.pdf>
-Package pdftex.def Info: dist_funcs.pdf  used on input line 149. on input line 
-149.
+Package pdftex.def Info: dist_funcs.pdf  used on input line 144. on input line 
+144.
 Package pdftex.def Info: Requested size: 232.26694pt x 161.8228pt on input line
- 149.
+ 144.
  [8
 
- <./dist_funcs.pdf>] [9
+ <./dist_funcs.pdf>]
+[9
 
 ]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 162.
+pdf' is 1 on input line 190.
  (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
-<./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, id=477, page=1, pagebox=cr
-opbox, 609.4302pt x 608.27103pt>
+<./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, id=478, page=1, pagebox=cr
+opbox, 609.41826pt x 608.27103pt>
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
 )
 <use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
 age1 used on input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 121.88417pt x 121.65204pt on input lin
-e 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 190.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+<./svg-inkscape/arrow_right_svg-tex.pdf, id=480, page=1, pagebox=cropbox, 178.5
+3354pt x 144.50471pt>
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+<./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, id=482, page=1, pagebox=cr
+opbox, 608.27103pt x 608.27103pt>
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
 ) [10
 
- <./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf>] [11
+ <./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf> <./svg-inkscape/arrow_rig
+ht_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/arrow_right_svg-tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./svg-inkscape/sphere_wireframe_points_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/sphere_wireframe_points_svg-tex.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 190.
+ (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 190.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
+) [11
+
+]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 190.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
+) [12
+
+]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 190.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
+) [13
+
+]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 190.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
+) [14
+
+]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 190.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 190.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
+) [15
+
+] [16
+
+] [17
 
 ]
 \tf@nav=\write8
@@ -1944,53 +1729,47 @@ e 52.
 \tf@snm=\write10
 \openout10 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
- (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
 
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+(./presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: A13F403202BF3057B831600EC5993E26;303.
 
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: CC0B5E6725D750BE53B379DED756C955;303
-(rerunfilecheck)             After:  A13F403202BF3057B831600EC5993E26;303.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 36612 strings out of 494350
- 791642 string characters out of 6168763
- 929324 words of memory out of 5000000
- 39394 multiletter control sequences out of 15000+600000
- 549299 words of font info for 62 fonts, out of 8000000 for 9000
+ 37067 strings out of 494350
+ 803202 string characters out of 6168763
+ 934787 words of memory out of 5000000
+ 39796 multiletter control sequences out of 15000+600000
+ 549608 words of font info for 63 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
  64i,17n,99p,10375b,1075s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.2.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb>
-Output written on presentation.pdf (11 pages, 319455 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb>
+Output written on presentation.pdf (17 pages, 376783 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 696 compressed objects within 7 object streams
- 35 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1196 PDF objects out of 1200 (max. 8388607)
+ 1065 compressed objects within 11 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
