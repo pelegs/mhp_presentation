@@ -21,18 +21,20 @@
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\beamer@subsectionentry {0}{2}{2}{9}{Surface}}\headcommand {\beamer@subsectionpages {3}{8}}
 \headcommand {\beamer@subsubsectionentry {0}{2}{2}{1}{9}{Solvent accesible surface}}
-\headcommand {\slideentry {2}{2}{1}{9/9}{Surface}{0}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsubsectionentry {0}{2}{2}{2}{10}{Evenly distributed points}}
-\headcommand {\slideentry {2}{2}{2}{10/14}{Surface}{0}}
-\headcommand {\beamer@framepages {10}{14}}
-\headcommand {\slideentry {2}{2}{3}{15/20}{Surface}{0}}
-\headcommand {\beamer@framepages {15}{20}}
-\headcommand {\beamer@subsubsectionentry {0}{2}{2}{3}{21}{Integration}}
-\headcommand {\slideentry {2}{2}{4}{21/21}{Surface}{0}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\beamer@partpages {1}{21}}
-\headcommand {\beamer@subsectionpages {9}{21}}
-\headcommand {\beamer@sectionpages {3}{21}}
-\headcommand {\beamer@documentpages {21}}
-\headcommand {\def \inserttotalframenumber {9}}
+\headcommand {\slideentry {2}{2}{1}{9/11}{Surface}{0}}
+\headcommand {\beamer@framepages {9}{11}}
+\headcommand {\slideentry {2}{2}{2}{12/20}{Surface}{0}}
+\headcommand {\beamer@framepages {12}{20}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{2}{21}{Evenly distributed points}}
+\headcommand {\slideentry {2}{2}{3}{21/25}{Surface}{0}}
+\headcommand {\beamer@framepages {21}{25}}
+\headcommand {\slideentry {2}{2}{4}{26/31}{Surface}{0}}
+\headcommand {\beamer@framepages {26}{31}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{3}{32}{Integration}}
+\headcommand {\slideentry {2}{2}{5}{32/32}{Surface}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {9}{32}}
+\headcommand {\beamer@sectionpages {3}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\def \inserttotalframenumber {10}}
