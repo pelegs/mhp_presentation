@@ -14,13 +14,78 @@
 \usepackage{verbatim}
 
 \usepackage{tikz}
-\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math}
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math,ipe}
 \tikzset{>=stealth}
 \newcommand{\tikzmark}[3][]{\tikz[remember picture,baseline] \node [anchor=base,#1,](#2) {#3};}
+\tikzstyle{ipe stylesheet} = [
+  ipe import,
+  even odd rule,
+  line join=round,
+  line cap=butt,
+  ipe pen normal/.style={line width=0.4},
+  ipe pen heavier/.style={line width=0.8},
+  ipe pen fat/.style={line width=1.2},
+  ipe pen ultrafat/.style={line width=2},
+  ipe pen normal,
+  ipe mark normal/.style={ipe mark scale=3},
+  ipe mark large/.style={ipe mark scale=5},
+  ipe mark small/.style={ipe mark scale=2},
+  ipe mark tiny/.style={ipe mark scale=1.1},
+  ipe mark normal,
+  /pgf/arrow keys/.cd,
+  ipe arrow normal/.style={scale=7},
+  ipe arrow large/.style={scale=10},
+  ipe arrow small/.style={scale=5},
+  ipe arrow tiny/.style={scale=3},
+  ipe arrow normal,
+  /tikz/.cd,
+  ipe arrows, % update arrows
+  <->/.tip = ipe normal,
+  ipe dash normal/.style={dash pattern=},
+  ipe dash dashed/.style={dash pattern=on 4bp off 4bp},
+  ipe dash dotted/.style={dash pattern=on 1bp off 3bp},
+  ipe dash dash dotted/.style={dash pattern=on 4bp off 2bp on 1bp off 2bp},
+  ipe dash dash dot dotted/.style={dash pattern=on 4bp off 2bp on 1bp off 2bp on 1bp off 2bp},
+  ipe dash normal,
+  ipe node/.append style={font=\normalsize},
+  ipe stretch normal/.style={ipe node stretch=1},
+  ipe stretch normal,
+  ipe opacity 10/.style={opacity=0.1},
+  ipe opacity 30/.style={opacity=0.3},
+  ipe opacity 50/.style={opacity=0.5},
+  ipe opacity 75/.style={opacity=0.75},
+  ipe opacity opaque/.style={opacity=1},
+  ipe opacity opaque,
+]
 
-\definecolor{red1}{RGB}{255,0,0}
-\definecolor{red2}{RGB}{190,0,190}
-\definecolor{red3}{RGB}{40,0,210}
+\definecolor{red}{rgb}{1,0,0}
+\definecolor{green}{rgb}{0,1,0}
+\definecolor{blue}{rgb}{0,0,1}
+\definecolor{yellow}{rgb}{1,1,0}
+\definecolor{orange}{rgb}{1,0.647,0}
+\definecolor{gold}{rgb}{1,0.843,0}
+\definecolor{purple}{rgb}{0.627,0.125,0.941}
+\definecolor{gray}{rgb}{0.745,0.745,0.745}
+\definecolor{brown}{rgb}{0.647,0.165,0.165}
+\definecolor{navy}{rgb}{0,0,0.502}
+\definecolor{pink}{rgb}{1,0.753,0.796}
+\definecolor{seagreen}{rgb}{0.18,0.545,0.341}
+\definecolor{turquoise}{rgb}{0.251,0.878,0.816}
+\definecolor{violet}{rgb}{0.933,0.51,0.933}
+\definecolor{darkblue}{rgb}{0,0,0.545}
+\definecolor{darkcyan}{rgb}{0,0.545,0.545}
+\definecolor{darkgray}{rgb}{0.663,0.663,0.663}
+\definecolor{darkgreen}{rgb}{0,0.392,0}
+\definecolor{darkmagenta}{rgb}{0.545,0,0.545}
+\definecolor{darkorange}{rgb}{1,0.549,0}
+\definecolor{darkred}{rgb}{0.545,0,0}
+\definecolor{lightblue}{rgb}{0.678,0.847,0.902}
+\definecolor{lightcyan}{rgb}{0.878,1,1}
+\definecolor{lightgray}{rgb}{0.827,0.827,0.827}
+\definecolor{lightgreen}{rgb}{0.565,0.933,0.565}
+\definecolor{lightyellow}{rgb}{1,1,0.878}
+\definecolor{black}{rgb}{0,0,0}
+\definecolor{white}{rgb}{1,1,1}
 \tcbset{highlight math style={enhanced, colframe=blue!20!black, colback=white, arc=4pt, boxrule=0.5pt}}
 
 \title[Molecular Hydrophobicity Potential]
@@ -121,6 +186,8 @@
         62  & \ce{O-}           & -0.7941 \\
         \hline
     \end{tabular}
+    ~\\
+    \tiny{Source: Arup K. Ghose et al, J. Phys. Chem. A 1998, 102, 3762-3772}
 \end{frame}
 
 \subsubsection{Distance function}
@@ -146,12 +213,60 @@
 \subsection{Surface}
 \subsubsection{Solvent accesible surface}
 \begin{frame}{Solvent accesible surface}
+	\begin{itemize}
+		\item The surface around a molecule accesible to solvent molecules \\
+		\uncover<2->{	
+			\begin{tikzpicture}[ipe stylesheet, scale=0.75]
+				\filldraw[ipe pen fat, ipe dash dashed, fill=lightblue]
+				(224, 672) circle[radius=54.5026];
+				\filldraw[ipe pen fat, ipe dash dashed, fill=lightblue]
+				(255.5303, 627.0014)
+				arc[start angle=-128.6284, end angle=123.5534, radius=51.8715];
+				\filldraw[ipe pen fat, ipe dash dashed, fill=lightblue]
+				(168, 680.0003)
+				arc[start angle=90.7993, end angle=364.8178, radius=63.4375];
+				\filldraw[ipe pen fat, fill=red]
+				(224, 672) circle[radius=32];
+				\filldraw[ipe pen fat, fill=white]
+				(288, 668) circle[radius=24];
+				\draw[-]
+				(312, 668) -- (340,668);
+				\node[ipe node, text=black]
+				at (322, 672) {$r$};
+				\filldraw[ipe pen fat, fill=gray]
+				(168, 616) circle[radius=40];
+				\filldraw[ipe pen heavier, fill=purple!20]
+				(230.967, 616.9735) circle[radius=21.7552];
+				\pic[ipe mark large, purple]
+				at (230.968, 616.973) {ipe disk};
+				\draw[purple, ipe pen heavier, ->]
+				(230.9679, 616.973)
+				-- (217.7959, 634.2885);
+				\node[ipe node, text=purple]
+				at (228.134, 625.542) {$\vec{r}$};
+				
+				% Legend
+				\draw[ipe pen fat] (320, 520) rectangle ++(140,80);
+				\filldraw[ipe pen fat, ipe dash dashed, fill=lightblue]
+				(330,570) rectangle ++(20, 20);
+				\node[ipe node, text=black]
+				at (360, 575) {SAS};
+				\filldraw[ipe pen heavier, fill=red]
+				(340,550) arc (90:270:10);
+				\filldraw[ipe pen heavier, fill=white]
+				(340,550) arc (90:-90:10);
+				\node[ipe node, text=black]
+				at (360, 535) {VdW surface};
+			\end{tikzpicture}
+		}
+	\uncover<3->{\item For water molecules usually $r=4\left[\AA\right]$}
+	\end{itemize}
 \end{frame}
 
 \subsubsection{Evenly distributed points}
 \begin{frame}{Evenly distributed points}
     \centering
-    How to distribute $N^{2}$ points on a surface of a sphere?\\ ~\\ ~\\
+    How to distribute $N$ points on a surface of a sphere?\\ ~\\ ~\\
     \begin{columns}
         \uncover<1->{
         \begin{column}{0.4\textwidth}
@@ -160,7 +275,7 @@
         \end{column}
         }
         
-        \uncover<4->{
+        \uncover<3->{
         \begin{column}{0.2\textwidth}
         \centering
 	        \includesvg[scale=.17]{arrow_right}
@@ -175,15 +290,15 @@
         \begin{column}{0.4\textwidth}
             \begin{itemize}
                 \uncover<2->{\item[] $\varphi_{i}=i\cdot\frac{2\pi}{N}$}
-                \uncover<3->{\item[] $\theta_{j}=j\cdot\frac{\pi}{N}$}
+                \uncover<2->{\item[] $\theta_{j}=j\cdot\frac{\pi}{N}$}
             \end{itemize}
         \end{column}
         \begin{column}{0.2\textwidth}
         \end{column}
         \begin{column}{0.4\textwidth}
             \begin{itemize}
-                \uncover<5->{\item Points are not evenly distributed}
-                \uncover<6->{\item Several points overlap at poles}
+                \uncover<4->{\item Points are not evenly distributed}
+                \uncover<5->{\item Several points overlap at poles}
             \end{itemize}
         \end{column}
     \end{columns}
@@ -191,33 +306,35 @@
 
 \begin{frame}{Evenly distributed points}
     \centering
-    Solution: Vogel's method\\
+    Solution: \alert{Vogel's method}\\
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \uncover<1->{In 2 dimensions:}
             \begin{itemize}
                 \uncover<2->{\item Distances: $r_{i}=\sqrt{\frac{i}{N}}$}
-                \uncover<3->{\item Angle: $\theta_{i}=\varphi i$
+                \uncover<2->{\item Angle: $\theta_{i}=\varphi i$
                 			 \item[] ($\varphi$ is the golden ratio!)}
             \end{itemize}
         \end{column}
         \begin{column}{0.5\textwidth}
 			\centering
-			\uncover<4->{\includesvg[scale=0.35]{vogels}}
+			\uncover<3->{\includesvg[scale=0.35]{vogels}}
         \end{column}
     \end{columns}
     ~\\ ~\\
     \begin{columns}
         \begin{column}{0.5\textwidth}
-            \uncover<5->{In 3 dimensions (cylindrical coordinates):}
+            \uncover<4->{In 3 dimensions (cylindrical coordinates):}
             \begin{itemize}
-                \uncover<6->{\item Distances: $z_{i}=\left(1-\frac{1}{N}\right)\left(1-\frac{2i}{N-1}\right)$}
-                \uncover<7->{\item Angles: $\theta_{i}=\varphi i,\ \rho_{i}=\sqrt{1-z_{i}^{2}}$}
+                \uncover<5->{\item Distances: $z_{i}=\left(1-\frac{1}{N}\right)\left(1-\frac{2i}{N-1}\right)$}
+                \uncover<5->{\item Angles: $\theta_{i}=\varphi i,\ \rho_{i}=\sqrt{1-z_{i}^{2}}$}
             \end{itemize}
         \end{column}
         \begin{column}{0.5\textwidth}
 			\centering
-			\uncover<8->{\includegraphics[scale=.4]{3d_vogels.png}}
+			\uncover<6->{\includegraphics[scale=.4]{3d_vogels.png}\\
+                         \tiny{Image source: Marmakoide's Blog}
+            }
         \end{column}
     \end{columns}
 \end{frame}
@@ -225,5 +342,4 @@
 \subsubsection{Integration}
 \begin{frame}{Integration}
 \end{frame}
-
 \end{document}
