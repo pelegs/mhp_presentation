@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  16 FEB 2018 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  16 FEB 2018 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,7 +1400,7 @@ Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
  input line 166.
 
 (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
-<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=151, page=1, pagebox=cropbox, 1038.
+<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=156, page=1, pagebox=cropbox, 1038.
 53609pt x 677.36597pt>
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
@@ -1410,7 +1410,7 @@ Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
  52.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
-<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=152, page=2, pagebox=cropbox, 1038.
+<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=157, page=2, pagebox=cropbox, 1038.
 53609pt x 677.36597pt>
 File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
@@ -1482,40 +1482,27 @@ Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
 ) [6
 
 ]
-Overfull \vbox (34.97726pt too high) detected at line 217
- []
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 188.
+ [7
 
-[7
+] [8
+
+] [9
+
+] [10
 
 ]
-Overfull \vbox (34.97726pt too high) detected at line 217
- []
-
-[8
-
-]
-<dist_funcs.pdf, id=396, pagebox=cropbox, 357.338pt x 248.96112pt>
+<dist_funcs.pdf, id=476, pagebox=cropbox, 357.338pt x 248.96112pt>
 File: dist_funcs.pdf Graphic file (type pdf)
 <use dist_funcs.pdf>
-Package pdftex.def Info: dist_funcs.pdf  used on input line 237. on input line 
-237.
+Package pdftex.def Info: dist_funcs.pdf  used on input line 258. on input line 
+258.
 Package pdftex.def Info: Requested size: 232.26694pt x 161.8228pt on input line
- 237.
- [9
-
- <./dist_funcs.pdf>]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [10
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+ 258.
  [11
 
-]
+ <./dist_funcs.pdf>]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1525,17 +1512,9 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
  [13
 
 ]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1589,8 +1568,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-[19
+ [19
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -1613,11 +1591,32 @@ Missing character: There is no ; in font nullfont!
  [21
 
 ]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [22
+
+]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [23
+
+]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 387.
- (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
-<./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, id=927, page=1, pagebox=cr
-opbox, 609.41826pt x 608.27103pt>
+pdf' is 1 on input line 408.
+
+(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+<./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, id=1005, page=1, pagebox=c
+ropbox, 609.41826pt x 608.27103pt>
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
 )
 <use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
@@ -1627,11 +1626,11 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 387.
+ input line 408.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
-<./svg-inkscape/arrow_right_svg-tex.pdf, id=929, page=1, pagebox=cropbox, 178.5
-3354pt x 144.50471pt>
+<./svg-inkscape/arrow_right_svg-tex.pdf, id=1007, page=1, pagebox=cropbox, 178.
+53354pt x 144.50471pt>
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
@@ -1640,11 +1639,11 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 387.
+pdf' is 1 on input line 408.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
-<./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, id=931, page=1, pagebox=cr
-opbox, 608.27103pt x 608.27103pt>
+<./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, id=1009, page=1, pagebox=c
+ropbox, 608.27103pt x 608.27103pt>
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
 )
 <use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
@@ -1652,7 +1651,7 @@ Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
 age1 used on input line 52. on input line 52.
 Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
  52.
-) [22
+) [24
 
  <./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf> <./svg-inkscape/arrow_rig
 ht_svg-tex.pdf
@@ -1665,7 +1664,7 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/sphere_wireframe_points_svg-tex.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 387.
+pdf' is 1 on input line 408.
  (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
 )
@@ -1676,7 +1675,7 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 387.
+ input line 408.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
@@ -1687,81 +1686,7 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 387.
-
-(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
-File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
-)
-<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
-age1 used on input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
- 52.
-) [23
-
-]
-Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 387.
-
-(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
-File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
-)
-<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
-age1 used on input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
- 52.
-)
-Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 387.
-
-(./svg-inkscape/arrow_right_svg-tex.pdf_tex
-File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
- input line 53. on input line 53.
-Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
-53.
-)
-Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 387.
-
-(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
-File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
-)
-<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
-age1 used on input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
- 52.
-) [24
-
-]
-Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 387.
-
-(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
-File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
-)
-<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
-age1 used on input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
- 52.
-)
-Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 387.
-
-(./svg-inkscape/arrow_right_svg-tex.pdf_tex
-File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
- input line 53. on input line 53.
-Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
-53.
-)
-Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 387.
+pdf' is 1 on input line 408.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
@@ -1775,7 +1700,7 @@ Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
 
 ]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 387.
+pdf' is 1 on input line 408.
 
 (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
@@ -1787,7 +1712,7 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 387.
+ input line 408.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
@@ -1798,7 +1723,7 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 387.
+pdf' is 1 on input line 408.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
@@ -1811,11 +1736,85 @@ Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
 ) [26
 
 ]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 408.
+
+(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 408.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 408.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
+) [27
+
+]
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
+pdf' is 1 on input line 408.
+
+(./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
+ 52.
+)
+Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
+ input line 408.
+
+(./svg-inkscape/arrow_right_svg-tex.pdf_tex
+File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/arrow_right_svg-tex.pdf , page1 used on
+ input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line 
+53.
+)
+Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
+pdf' is 1 on input line 408.
+
+(./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
+File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
+)
+<use ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
+age1 used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
+ 52.
+) [28
+
+]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 422.
+t line 443.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
-<./svg-inkscape/vogels_svg-tex.pdf, id=1475, page=1, pagebox=cropbox, 252.84735
+<./svg-inkscape/vogels_svg-tex.pdf, id=1553, page=1, pagebox=cropbox, 252.84735
 pt x 252.84735pt>
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
@@ -1824,18 +1823,18 @@ t line 52. on input line 52.
 Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 2.
 )
-<3d_vogels.png, id=1476, 289.08pt x 289.08pt>
+<3d_vogels.png, id=1554, 289.08pt x 289.08pt>
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 422. on input line 4
-22.
+Package pdftex.def Info: 3d_vogels.png  used on input line 443. on input line 4
+43.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 422.
- [27
+e 443.
+ [29
 
  <./svg-inkscape/vogels_svg-tex.pdf> <./3d_vogels.png>]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 422.
+t line 443.
  (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
@@ -1846,55 +1845,15 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 422. on input line 4
-22.
+Package pdftex.def Info: 3d_vogels.png  used on input line 443. on input line 4
+43.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 422.
- [28
-
-]
-Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 422.
-
-(./svg-inkscape/vogels_svg-tex.pdf_tex
-File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/vogels_svg-tex.pdf , page1 used on inpu
-t line 52. on input line 52.
-Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
-2.
-)
-File: 3d_vogels.png Graphic file (type png)
-<use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 422. on input line 4
-22.
-Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 422.
- [29
-
-]
-Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 422.
-
-(./svg-inkscape/vogels_svg-tex.pdf_tex
-File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/vogels_svg-tex.pdf , page1 used on inpu
-t line 52. on input line 52.
-Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
-2.
-)
-File: 3d_vogels.png Graphic file (type png)
-<use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 422. on input line 4
-22.
-Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 422.
+e 443.
  [30
 
 ]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 422.
+t line 443.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
@@ -1906,15 +1865,15 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 422. on input line 4
-22.
+Package pdftex.def Info: 3d_vogels.png  used on input line 443. on input line 4
+43.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 422.
+e 443.
  [31
 
 ]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 422.
+t line 443.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
@@ -1926,13 +1885,61 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 422. on input line 4
-22.
+Package pdftex.def Info: 3d_vogels.png  used on input line 443. on input line 4
+43.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 422.
+e 443.
  [32
 
-] [33
+]
+Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
+t line 443.
+
+(./svg-inkscape/vogels_svg-tex.pdf_tex
+File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/vogels_svg-tex.pdf , page1 used on inpu
+t line 52. on input line 52.
+Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
+2.
+)
+File: 3d_vogels.png Graphic file (type png)
+<use 3d_vogels.png>
+Package pdftex.def Info: 3d_vogels.png  used on input line 443. on input line 4
+43.
+Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
+e 443.
+ [33
+
+]
+Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
+t line 443.
+
+(./svg-inkscape/vogels_svg-tex.pdf_tex
+File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/vogels_svg-tex.pdf , page1 used on inpu
+t line 52. on input line 52.
+Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
+2.
+)
+File: 3d_vogels.png Graphic file (type png)
+<use 3d_vogels.png>
+Package pdftex.def Info: 3d_vogels.png  used on input line 443. on input line 4
+43.
+Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
+e 443.
+ [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
 
 ]
 \tf@nav=\write8
@@ -1944,30 +1951,25 @@ e 422.
 \tf@snm=\write10
 \openout10 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
- (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 462.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 462.
 
+(./presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 462.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 462.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 518D560E9C851486D35927942CA27E17;304.
 
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: 2D49ED08AE5E1A0D1F19C54F290C27C9;247
-(rerunfilecheck)             After:  73EA091C06C1F1CE7035C9C760F79E64;304.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 37726 strings out of 494350
- 820287 string characters out of 6168763
- 972595 words of memory out of 5000000
- 40397 multiletter control sequences out of 15000+600000
- 551461 words of font info for 70 fonts, out of 8000000 for 9000
+ 37780 strings out of 494350
+ 821084 string characters out of 6168763
+ 972687 words of memory out of 5000000
+ 40435 multiletter control sequences out of 15000+600000
+ 558286 words of font info for 83 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
  64i,15n,99p,10375b,1075s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1986,10 +1988,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvr8a.pfb>
-Output written on presentation.pdf (33 pages, 486604 bytes).
+Output written on presentation.pdf (39 pages, 507472 bytes).
 PDF statistics:
- 1807 PDF objects out of 2073 (max. 8388607)
- 1649 compressed objects within 17 object streams
- 78 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2039 PDF objects out of 2073 (max. 8388607)
+ 1873 compressed objects within 19 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 350 words of extra memory for PDF output out of 10000 (max. 10000000)
 

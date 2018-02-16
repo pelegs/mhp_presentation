@@ -444,5 +444,52 @@
 
 \subsubsection{Integration}
 \begin{frame}{Integration}
+    \begin{itemize}
+        \setlength\itemsep{1.5em}
+        \uncover<1->{\item Each atom's total surface area: $V^{a}=4\pi\left(R_{\text{vdW}}^{a}+R_{\text{probe}}\right)^{2}$}
+        \uncover<2->{\item The surface is represented by $N$ points}
+        \uncover<3->{\item Meaning: each point has $V_{j}^{a}=\frac{4\pi}{N}\left(R_{\text{vdW}}^{i}+R_{\text{probe}}\right)^{2}$}
+        \uncover<4->{\item In addition, each point has: $\text{MHP}_{j}^{a}$}
+    \end{itemize}
+    \centering
+    \uncover<5->{
+        ~\\Therefore, each atom has a total MHP of:~\\~\\
+        \begin{tikzpicture}
+            \node[fill=red!20] at (0,0) {$\text{MHP}^{a}=\frac{4\pi}{N}\sum_{j=0}^{M}\text{MHP}_{j}^{a}$};
+        \end{tikzpicture}
+    }
+\end{frame}
+
+\section{Program}
+\begin{frame}{Program}
+    \begin{itemize}
+        \setlength\itemsep{1.5em}
+        \uncover<1->{\item Written in \textbf{Python3}, utylizing \textbf{ProDy}}
+        \uncover<2->{\item Heavy calculation written in \textbf{Cython}}
+        \uncover<3->{\item Uses neighbor cells implementation for faster calculation}
+        \uncover<4->{\item Uses PSF, PDB and DCD files}
+        \uncover<5->{\item Generates a PDB output, MHP values in \textbf{beta} column}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Program options}
+    \begin{itemize}
+        \setlength\itemsep{1.5em}
+        \uncover<1->{\item Input: PSF + PDB or DCD}
+        \uncover<2->{\item Subselection (optional): Atomic selection (like vmd)}
+        \uncover<3->{\item Number of points per atom (default: $64$)}
+        \uncover<4->{\item Solvent probe radius (defalt: $1.4\AA$)}
+        \uncover<5->{\item Cutoff distance for distance function (default: $4\AA$)}
+        \uncover<6->{\item Frame range (if DCD)}
+    \end{itemize}
+\end{frame}
+
+\section{Results}
+\subsection{Validation via Known log p Values}
+\begin{frame}{Validation via Known $\log P$ Values}
+\end{frame}
+
+\subsection{An Example System}
+\begin{frame}{An Example System}
 \end{frame}
 \end{document}
