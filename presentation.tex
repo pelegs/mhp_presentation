@@ -22,6 +22,10 @@
 \newcommand{\tikzmark}[3][]{\tikz[remember picture,baseline] \node [anchor=base,#1,](#2) {#3};}
 \def\centerarc[#1](#2)(#3:#4:#5){\draw[#1]($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5);}
 
+\usepackage{biblatex}[backend=biber, style=nature]
+\bibliography{mhp.bib}
+\setbeamertemplate{bibliography item}[text]
+
 \title[Molecular Hydrophobicity Potential]
 {%
     Implementing Molecular Hydrophobicity Potential Measurment for the Analysis of Dynamic Biomolecular Interactions
@@ -108,8 +112,8 @@
 \begin{frame}{What is Molecular Hydrophobicity Potential (MHP)?}
 	\begin{itemize}
         \setlength\itemsep{1.5em}
-		\uncover<1->{\item By measuring the $\log P$ of many (ca. 30,000) compounds\footnote{Ghose et al, J. Phys. Chem. A 1998, 102, 3762-3772}, single atoms can be assigned local "force" values.}
-		\uncover<2->{\item Combining these values with a distance-depended decay function, a potential can be constructed.}
+		\uncover<1->{\item By measuring the $\log P$ of many (ca. 30,000) compounds\cite{Ghose}}
+        \uncover<2->{\item Combining these values with a distance-depended decay function, a potential can be constructed.}
 		\uncover<3->{\item This potential predicts the local $\log P$ behaviour of fragments of a molecule.}
 	\end{itemize}
 \end{frame}
@@ -567,8 +571,11 @@
 	\end{itemize}
 \end{frame}
 
-\section*{References}
-\begin{frame}{References}
+\section*{Bibliography}
+\begin{frame}[shrink=10]
+    \frametitle{Bibliography}
+    \nocite{*}
+    \printbibliography
 \end{frame}
 
 \section*{Thankyou}

@@ -1,19 +1,39 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {1}{1}{Hydrophobicity and log P}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {1}{2}{Partition Coefficient}{5}{0}{1}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{Molecular Hydrophobicity Potential}{10}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {2}{1}{What is it?}{10}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {2}{2}{Potential}{13}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsubsectionintoc {2}{2}{1}{General form}{13}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsubsectionintoc {2}{2}{2}{Force Constants}{17}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsubsectionintoc {2}{2}{3}{Distance function}{21}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {2}{3}{Surface}{22}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsubsectionintoc {2}{3}{1}{Solvent Accesible Surface}{22}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsubsectionintoc {2}{3}{2}{Evenly Distributed Points}{34}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@subsubsectionintoc {2}{3}{3}{Integration}{45}{0}{2}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{Program}{50}{0}{3}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {3}{1}{What are we interested in?}{50}{0}{3}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {3}{2}{Program Specifications}{50}{0}{3}
+\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{Results}{61}{0}{4}
+\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {4}{1}{Validation via Known log p Values}{61}{0}{4}
-\beamer@subsectionintoc {4}{2}{An Example System}{73}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {4}{2}{An Example System}{71}{0}{4}
