@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  18 FEB 2018 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  18 FEB 2018 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1276,14 +1276,6 @@ zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytrees.code.tex
-File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarymatrix.code.tex
-File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymath.code.tex
 \tikz@math@for@depth=\count340
 \tikz@math@dimen=\dimen313
@@ -1293,6 +1285,10 @@ zlibrarymath.code.tex
 zlibrarymindmap.code.tex
 File: tikzlibrarymindmap.code.tex 2013/07/16 v3.0.1a (rcs-revision 1.10)
 
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
@@ -2276,10 +2272,10 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 29F717E9EBE82C86D7AE63F22F941330;200.
  ) 
 Here is how much of TeX's memory you used:
- 39089 strings out of 494350
- 849959 string characters out of 6168763
- 1015272 words of memory out of 5000000
- 41600 multiletter control sequences out of 15000+600000
+ 39039 strings out of 494350
+ 848217 string characters out of 6168763
+ 1013233 words of memory out of 5000000
+ 41553 multiletter control sequences out of 15000+600000
  561898 words of font info for 92 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
  64i,15n,99p,10375b,1317s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2301,7 +2297,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
 uhvr8a.pfb>
-Output written on presentation.pdf (88 pages, 710503 bytes).
+Output written on presentation.pdf (88 pages, 710510 bytes).
 PDF statistics:
  4960 PDF objects out of 5155 (max. 8388607)
  4637 compressed objects within 47 object streams

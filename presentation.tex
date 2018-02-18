@@ -7,7 +7,6 @@
 \usepackage[version=4]{mhchem}
 \usepackage{graphicx}
 \usepackage{svg}
-\usepackage{empheq}
 \usepackage[many]{tcolorbox}
 
 \usepackage{smartdiagram}
@@ -231,17 +230,17 @@
     \centering
     \begin{minipage}[t]{0.48\linewidth}
         \centering
-        Audry form
-        \begin{empheq}[box=\tcbhighmath]{align*}
-            D\left(x\right)=\frac{1}{1+x}
-        \end{empheq}
+        \color{red} Audry form
+        \begin{tcolorbox}[width=0.85\linewidth, colback=red!20, colframe=red]
+            $D\left(x\right)=\frac{1}{1+x}$
+        \end{tcolorbox}
     \end{minipage}
     \begin{minipage}[t]{0.48\linewidth}
         \centering
-        Exponential decay form
-        \begin{empheq}[box=\tcbhighmath]{align*}
-            D\left(x\right)=e^{-\alpha x}
-        \end{empheq}
+        \color{blue} Exponential decay form
+        \begin{tcolorbox}[width=0.85\linewidth, colback=blue!20, colframe=blue]
+            $D\left(x\right)=e^{-\alpha x}$
+        \end{tcolorbox}
     \end{minipage}
     \includegraphics[scale=0.65]{dist_funcs.pdf}    
 \end{frame}
