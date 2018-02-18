@@ -5,7 +5,6 @@
 \setbeamertemplate{caption}{\insertcaption}
 
 \usepackage[version=4]{mhchem}
-\usepackage{graphicx}
 \usepackage{svg}
 \usepackage[many]{tcolorbox}
 
@@ -18,7 +17,7 @@
 \usepackage{verbatim}
 
 \usepackage{tikz}
-\usetikzlibrary{arrows,shapes,positioning,math,calc,mindmap}
+\usetikzlibrary{arrows, positioning, math, calc, mindmap}
 \tikzset{>=stealth}
 \newcommand{\tikzmark}[3][]{\tikz[remember picture,baseline] \node [anchor=base,#1,](#2) {#3};}
 \def\centerarc[#1](#2)(#3:#4:#5){\draw[#1]($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5);}
@@ -64,7 +63,7 @@
     \tikzset{level 2/.append style={sibling angle=20, level distance=125mm}}
 	\centering
 	\begin{tikzpicture}[scale=0.7]
-		\path[mindmap, concept color=purple!20, text=black]
+		\path[mindmap, concept color=orange!50, text=black]
 		node[concept, font=\fontsize{16pt}{15pt}\selectfont] {Intermolecular interactions}
 		[clockwise from=0]
 		child[concept color=green!40] {
@@ -286,7 +285,7 @@
                 \draw[->, thick] (C) --++(-\RC,0);
                 \filldraw[fill=black] (C) circle (0.1);
                 \node[] at ($(C)+(-.5,.5)$) {$R_{\text{vdW}}$};
-                \draw[thick, opacity=0.3, red, dashed] ($(H) + (\Px,\Py)$) circle (\RP);
+                \draw[thick, red, dashed] ($(H) + (\Px,\Py)$) circle (\RP);
                 \filldraw[fill=red] ($(H) + (\Px,\Py)$) circle (0.1);
                 \node[red] at ($(H) + (\Px,1.7*\Py)$) {probe};
             \end{tikzpicture}
@@ -561,11 +560,10 @@
 \begin{frame}{MHP Change Over Time}
 	\begin{itemize}
         \setlength\itemsep{1.5em}
-		\uncover<2->{\item The validation shows a reasonable qualitative correlation to real data.}
-		\uncover<3->{\item Performed in water (with structural optimization), the results became more accurate.}
-		\uncover<4->{\item The environment did not match experiments, which could affect the accuracy.}
-		\uncover<5->{\item Amino acids are small molecules, each error becomes more significant.}
-		\uncover<6->{\item Larger trajectories will sample conformational space better.}
+        \uncover<2->{\item We again get qualitative correlation to expected results (i.e. interior Hydrophobic).}
+        \uncover<3->{\item The amino acid residues have the correct hydrophobicity.}
+		\uncover<4->{\item Observing changes in MHP of fragments of interest is possible.}
+		\uncover<5->{\item More systems could be analyzed using this method.}
 	\end{itemize}
 \end{frame}
 
@@ -574,7 +572,9 @@
 \end{frame}
 
 \section*{Thankyou}
-\begin{frame}
+\begin{frame}{Thank You for Your Attention!}
+    \centering
+    \includegraphics[scale=0.2]{happy_tapir.jpg}
 \end{frame}
 
 \end{document}
