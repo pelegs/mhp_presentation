@@ -1,5 +1,6 @@
 \documentclass{beamer}
 \usetheme{Goettingen}
+\usefonttheme{professionalfonts}
 \usefonttheme[onlymath]{serif}
 \setbeamertemplate{caption}{\insertcaption}
 
@@ -9,13 +10,16 @@
 \usepackage{empheq}
 \usepackage[many]{tcolorbox}
 
-\usefonttheme{professionalfonts}
+\usepackage{smartdiagram}
+\usepackage{metalogo}
+\usepackage{dtklogos}
+
 \usepackage{times}
 \usepackage{amsmath}
 \usepackage{verbatim}
 
 \usepackage{tikz}
-\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math,ipe,calc}
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math,ipe,calc,mindmap}
 \tikzset{>=stealth}
 \newcommand{\tikzmark}[3][]{\tikz[remember picture,baseline] \node [anchor=base,#1,](#2) {#3};}
 \def\centerarc[#1](#2)(#3:#4:#5){\draw[#1]($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5);}
@@ -124,6 +128,47 @@
 
 \section{Introduction}
 \subsection{Hydrophobicity and log P}
+\begin{frame}{Hydrophobicity and log P}
+	\tikzset{every node/.append style={scale=0.6}, grow cyclic}
+    \tikzset{level 1/.append style={sibling angle=50, level distance = 250mm}}
+    \tikzset{level 2/.append style={sibling angle=20, level distance = 125mm}}
+	\centering
+	\begin{tikzpicture}[scale=0.6]
+		\path[mindmap, concept color=purple!20, text=black]
+		node[concept] {Intermolecular interactions}
+		[clockwise from=0]
+		child[concept color=green!40] {
+			node[concept] {Electrostatic interactions}
+			child { node[concept] {Hydrogen bonds} }
+			child { node[concept] {Charged interactions} }
+			child { node[concept] {Dipole interactions} }
+		}
+		child[concept color=blue!40, rotate=-10] {
+			node[concept] {Pauli repulsion}
+			child { node[concept] {Steric forces} }
+			child { node[concept] {Born repulsion} }
+		}
+		child[concept color=red!40, rotate=-20] {
+			node[concept] {Electron distribution}
+			child { node[concept] {Hydrophobic interactions} }
+			child { node[concept] {Hydrophilic interactions} }
+		};
+	\end{tikzpicture}
+\end{frame}
+
+\subsection{Partition Coefficient}
+\begin{frame}{Partition Coefficient}
+	\centering
+	\begin{tcolorbox}[colback=blue!5, colframe=blue!40!black, title=Definition]
+		The ratio of concentrations of a compound in a mixture of two immiscible phases at equilibrium
+	\end{tcolorbox}
+	\begin{itemize}
+        \setlength\itemsep{1.5em}
+		\uncover<2->{\item Usually water and octanol}
+		\uncover<3->{\item Can be measured at an \alert{ionized} or \alert{unionized} state}
+		\uncover<3->{\item $\log P_{\text{octanol/water}}=\log\left(\frac{\left[\text{solute}\right]_{\text{water}}}{\left[\text{solute}\right]_{\text{octanol}}}\right)$}
+	\end{itemize}
+\end{frame}
 
 \section{Molecular Hydrophobicity Potential}
 \subsection{What is it?}
@@ -262,48 +307,49 @@
 \subsection{Surface}
 \subsubsection{Solvent accesible surface}
 \begin{frame}{Solvent accesible surface}
-	\begin{itemize}
-		\setlength\itemsep{2em}
-		\item The surface around a molecule accesible to solvent molecules \\
-		\uncover<2->{
-			\item[]
-			\begin{tikzpicture}[ipe stylesheet, scale=.75]
-				% Scale, distances, coordinates and radii
-				\def\scal{0.2}
-				\def\dOH{195*\scal}
-				\def\dOC{220*\scal}
-				\def\RP{120*\scal}
-				\coordinate (O) at (230,670);
-				\def\RO{152*\scal}
-				\def\ROP{\RO+\RP}	
-				\coordinate (H) at ($(O)+(\dOH,0)$);
-				\def\RH{120*\scal}
-				\def\RHP{\RH+\RP}	
-				\coordinate (C) at ($(O)-(\dOC,\dOC)$);
-				\def\RC{170*\scal}
-				\def\RCP{\RC+\RP}
+    \begin{itemize}
+        \item The surface around a molecule accesible to solvent molecules
+    \end{itemize}
+        \centering
+        \uncover<2->{
+            \begin{tikzpicture}[ipe stylesheet, scale=.75]
+                % Scale, distances, coordinates and radii
+                \def\scal{0.2}
+                \def\dOH{195*\scal}
+                \def\dOC{220*\scal}
+                \def\RP{120*\scal}
+                \coordinate (O) at (230,670);
+                \def\RO{152*\scal}
+                \def\ROP{\RO+\RP}	
+                \coordinate (H) at ($(O)+(\dOH,0)$);
+                \def\RH{120*\scal}
+                \def\RHP{\RH+\RP}	
+                \coordinate (C) at ($(O)-(\dOC,\dOC)$);
+                \def\RC{170*\scal}
+                \def\RCP{\RC+\RP}
 
-				% Cut radii+probe (should be parameterized...)
-				\centerarc[ipe pen heavier, fill=lightblue, dashed](O)(0:365:54);
-				\centerarc[ipe pen heavier, fill=lightblue, dashed](H)(-105:105:48);
-				\centerarc[ipe pen heavier, fill=lightblue, dashed](C)(98:352:58);
+                % Cut radii+probe (should be parameterized...)
+                \centerarc[ipe pen heavier, fill=lightblue, dashed](O)(0:365:54);
+                \centerarc[ipe pen heavier, fill=lightblue, dashed](H)(-105:105:48);
+                \centerarc[ipe pen heavier, fill=lightblue, dashed](C)(98:352:58);
 
-				% Atoms	
-				\filldraw[ipe pen fat, fill=red]
-				(O) circle[radius=\RO];
-				\filldraw[ipe pen fat, fill=white]
-				(H) circle[radius=\RH];
-				\draw[-, thick] ($(H)+(\RH,0)$) --++(\RP,0);
-				\draw[->] ($(H)+(65,20)$) --($(H)+(3*\RH/2,5)$);
-				\node[] at ($(H)+(85,25)$) {$R_{\text{probe}}$};
-				\filldraw[ipe pen fat, fill=gray]
-				(C) circle[radius=\RC];
-				\draw[-, thick] (C) --++(-\RC,0);
-				\node[] at ($(C)+(-8,8)$) {$R_{\text{vdW}}$};
-			\end{tikzpicture}
-		}
-	\uncover<3->{\item For water molecules usually $r=1.4\left[\text{\AA}\right]$}
-	\end{itemize}
+                % Atoms	
+                \filldraw[ipe pen fat, fill=red]
+                (O) circle[radius=\RO];
+                \filldraw[ipe pen fat, fill=white]
+                (H) circle[radius=\RH];
+                \draw[-, thick] ($(H)+(\RH,0)$) --++(\RP,0);
+                \draw[->] ($(H)+(65,20)$) --($(H)+(3*\RH/2,5)$);
+                \node[] at ($(H)+(85,25)$) {$R_{\text{probe}}$};
+                \filldraw[ipe pen fat, fill=gray]
+                (C) circle[radius=\RC];
+                \draw[-, thick] (C) --++(-\RC,0);
+                \node[] at ($(C)+(-8,8)$) {$R_{\text{vdW}}$};
+            \end{tikzpicture}
+        }
+    \begin{itemize}
+        \uncover<3->{\item For water molecules usually $r=1.4\left[\text{\AA}\right]$}
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{How to Create the Solvent Accesible Surface?}
