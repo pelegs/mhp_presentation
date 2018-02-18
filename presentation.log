@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  18 FEB 2018 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  18 FEB 2018 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,6 +1323,14 @@ e.tex
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 106.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 106.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 106.
+
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
@@ -1473,168 +1481,130 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (./presentation.toc) [2
 
 ]
-Overfull \hbox (7.8374pt too wide) in paragraph at lines 157--157
- [][][][]\OT1/phv/m/n/9 Hydrophobic 
+Overfull \hbox (2.17421pt too wide) in paragraph at lines 157--157
+ [][][][]\OT1/phv/m/n/16 Intermolecular 
  []
 
 
-Overfull \hbox (1.82547pt too wide) in paragraph at lines 157--157
- [][][][]\OT1/phv/m/n/9 Hydrophilic 
+Overfull \hbox (2.2245pt too wide) in paragraph at lines 157--157
+ [][][][]\OT1/phv/m/n/8 Hydrophobic 
  []
 
 [3
 
 ] [4
 
-]
-Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 206.
- (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
-<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=293, page=1, pagebox=cropbox, 1038.
-53609pt x 677.36597pt>
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
- input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 52.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
-<./svg-inkscape/mhp_visual1_svg-tex.pdf, id=294, page=2, pagebox=cropbox, 1038.
-53609pt x 677.36597pt>
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
- input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 62.
-) [5
+] [5
 
- <./svg-inkscape/mhp_visual1_svg-tex.pdf> <./svg-inkscape/mhp_visual1_svg-tex.p
-df
+] [6
 
-pdfTeX warning: pdflatex (file ./svg-inkscape/mhp_visual1_svg-tex.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
->]
-Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 206.
- (./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
- input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 52.
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
- input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 62.
-) [6
+] [7
+
+] [8
+
+] [9
 
 ]
-Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 206.
+Package epstopdf Info: Source file: <mhp_visual1.eps>
+(epstopdf)                    date: 2018-02-18 14:49:06
+(epstopdf)                    size: 196423 bytes
+(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-02-18 14:49:37
+(epstopdf)                    size: 78660 bytes
+(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
+to.pdf mhp_visual1.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+<mhp_visual1-eps-converted-to.pdf, id=546, pagebox=cropbox, 1038.88126pt x 678.
+535pt>
+File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
+<use mhp_visual1-eps-converted-to.pdf>
+Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 2
+16. on input line 216.
+Package pdftex.def Info: Requested size: 129.85983pt x 84.81667pt on input line
+ 216.
+ [10
 
-(./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
- input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 52.
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
- input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 62.
-) [7
+ <./mhp_visual1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <mhp_visual1.eps>
+(epstopdf)                    date: 2018-02-18 14:49:06
+(epstopdf)                    size: 196423 bytes
+(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-02-18 14:49:37
+(epstopdf)                    size: 78660 bytes
+(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
+to.pdf mhp_visual1.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
+<use mhp_visual1-eps-converted-to.pdf>
+Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 2
+16. on input line 216.
+Package pdftex.def Info: Requested size: 129.85983pt x 84.81667pt on input line
+ 216.
+ [11
 
 ]
-Package svg Info: Last page of `./svg-inkscape/mhp_visual1_svg-tex.pdf' is 2 on
- input line 206.
+Package epstopdf Info: Source file: <mhp_visual1.eps>
+(epstopdf)                    date: 2018-02-18 14:49:06
+(epstopdf)                    size: 196423 bytes
+(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-02-18 14:49:37
+(epstopdf)                    size: 78660 bytes
+(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
+to.pdf mhp_visual1.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
+<use mhp_visual1-eps-converted-to.pdf>
+Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 2
+16. on input line 216.
+Package pdftex.def Info: Requested size: 129.85983pt x 84.81667pt on input line
+ 216.
 
-(./svg-inkscape/mhp_visual1_svg-tex.pdf_tex
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page1 used on
- input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 52.
-File: ./svg-inkscape/mhp_visual1_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/mhp_visual1_svg-tex.pdf, page 2>
-Package pdftex.def Info: ./svg-inkscape/mhp_visual1_svg-tex.pdf , page2 used on
- input line 62. on input line 62.
-Package pdftex.def Info: Requested size: 103.85994pt x 67.74055pt on input line
- 62.
-) [8
+[12
+
+]
+Package epstopdf Info: Source file: <mhp_visual1.eps>
+(epstopdf)                    date: 2018-02-18 14:49:06
+(epstopdf)                    size: 196423 bytes
+(epstopdf)             Output file: <mhp_visual1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-02-18 14:49:37
+(epstopdf)                    size: 78660 bytes
+(epstopdf)             Command: <repstopdf --outfile=mhp_visual1-eps-converted-
+to.pdf mhp_visual1.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+File: mhp_visual1-eps-converted-to.pdf Graphic file (type pdf)
+<use mhp_visual1-eps-converted-to.pdf>
+Package pdftex.def Info: mhp_visual1-eps-converted-to.pdf  used on input line 2
+16. on input line 216.
+Package pdftex.def Info: Requested size: 129.85983pt x 84.81667pt on input line
+ 216.
+ [13
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 228.
- [9
-
-] [10
-
-] [11
-
-] [12
-
-]
-<dist_funcs.pdf, id=675, pagebox=cropbox, 357.338pt x 248.96112pt>
-File: dist_funcs.pdf Graphic file (type pdf)
-<use dist_funcs.pdf>
-Package pdftex.def Info: dist_funcs.pdf  used on input line 298. on input line 
-298.
-Package pdftex.def Info: Requested size: 232.26694pt x 161.8228pt on input line
- 298.
- [13
-
- <./dist_funcs.pdf>]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 238.
  [14
 
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [15
+] [15
+
+] [16
+
+] [17
 
 ]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [16
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [17
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+<dist_funcs.pdf, id=925, pagebox=cropbox, 357.338pt x 248.96112pt>
+File: dist_funcs.pdf Graphic file (type pdf)
+<use dist_funcs.pdf>
+Package pdftex.def Info: dist_funcs.pdf  used on input line 308. on input line 
+308.
+Package pdftex.def Info: Requested size: 232.26694pt x 161.8228pt on input line
+ 308.
  [18
 
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+ <./dist_funcs.pdf>]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1644,17 +1614,9 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
  [20
 
 ]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1678,7 +1640,8 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [23
+
+[23
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -1701,11 +1664,61 @@ Missing character: There is no ; in font nullfont!
  [25
 
 ]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [26
+
+]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [27
+
+]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [28
+
+]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [29
+
+]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [30
+
+]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
-<./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, id=1311, page=1, pagebox=c
+<./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf, id=1559, page=1, pagebox=c
 ropbox, 609.41826pt x 608.27103pt>
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
 )
@@ -1716,10 +1729,10 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 449.
+ input line 459.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
-<./svg-inkscape/arrow_right_svg-tex.pdf, id=1313, page=1, pagebox=cropbox, 178.
+<./svg-inkscape/arrow_right_svg-tex.pdf, id=1561, page=1, pagebox=cropbox, 178.
 53354pt x 144.50471pt>
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/arrow_right_svg-tex.pdf, page 1>
@@ -1729,10 +1742,10 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
-<./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, id=1315, page=1, pagebox=c
+<./svg-inkscape/sphere_wireframe_points_svg-tex.pdf, id=1563, page=1, pagebox=c
 ropbox, 608.27103pt x 608.27103pt>
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
 )
@@ -1741,7 +1754,7 @@ Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
 age1 used on input line 52. on input line 52.
 Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
  52.
-) [26
+) [31
 
  <./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf> <./svg-inkscape/arrow_rig
 ht_svg-tex.pdf
@@ -1754,7 +1767,7 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/sphere_wireframe_points_svg-tex.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
  (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
 )
@@ -1765,7 +1778,7 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 449.
+ input line 459.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
@@ -1776,7 +1789,7 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
@@ -1786,11 +1799,11 @@ Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
 age1 used on input line 52. on input line 52.
 Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
  52.
-) [27
+) [32
 
 ]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
@@ -1802,7 +1815,7 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 449.
+ input line 459.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
@@ -1813,7 +1826,7 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
@@ -1823,11 +1836,11 @@ Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
 age1 used on input line 52. on input line 52.
 Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
  52.
-) [28
+) [33
 
 ]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
@@ -1839,7 +1852,7 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 449.
+ input line 459.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
@@ -1850,7 +1863,7 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
@@ -1860,11 +1873,11 @@ Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
 age1 used on input line 52. on input line 52.
 Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
  52.
-) [29
+) [34
 
 ]
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_coords_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_coords_svg-tex.pdf Graphic file (type pdf
@@ -1876,7 +1889,7 @@ Package pdftex.def Info: Requested size: 103.59998pt x 103.4047pt on input line
  52.
 )
 Package svg Info: Last page of `./svg-inkscape/arrow_right_svg-tex.pdf' is 1 on
- input line 449.
+ input line 459.
 
 (./svg-inkscape/arrow_right_svg-tex.pdf_tex
 File: ./svg-inkscape/arrow_right_svg-tex.pdf Graphic file (type pdf)
@@ -1887,7 +1900,7 @@ Package pdftex.def Info: Requested size: 30.35037pt x 24.56546pt on input line
 53.
 )
 Package svg Info: Last page of `./svg-inkscape/sphere_wireframe_points_svg-tex.
-pdf' is 1 on input line 449.
+pdf' is 1 on input line 459.
 
 (./svg-inkscape/sphere_wireframe_points_svg-tex.pdf_tex
 File: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf Graphic file (type pdf
@@ -1897,14 +1910,14 @@ Package pdftex.def Info: ./svg-inkscape/sphere_wireframe_points_svg-tex.pdf , p
 age1 used on input line 52. on input line 52.
 Package pdftex.def Info: Requested size: 103.40495pt x 103.4047pt on input line
  52.
-) [30
+) [35
 
 ]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 484.
+t line 494.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
-<./svg-inkscape/vogels_svg-tex.pdf, id=1899, page=1, pagebox=cropbox, 252.84735
+<./svg-inkscape/vogels_svg-tex.pdf, id=2147, page=1, pagebox=cropbox, 252.84735
 pt x 252.84735pt>
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
@@ -1913,18 +1926,18 @@ t line 52. on input line 52.
 Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 2.
 )
-<3d_vogels.png, id=1900, 289.08pt x 289.08pt>
+<3d_vogels.png, id=2148, 289.08pt x 289.08pt>
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 484. on input line 4
-84.
+Package pdftex.def Info: 3d_vogels.png  used on input line 494. on input line 4
+94.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 484.
- [31
+e 494.
+ [36
 
  <./svg-inkscape/vogels_svg-tex.pdf> <./3d_vogels.png>]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 484.
+t line 494.
  (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vogels_svg-tex.pdf, page 1>
@@ -1935,15 +1948,15 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 484. on input line 4
-84.
+Package pdftex.def Info: 3d_vogels.png  used on input line 494. on input line 4
+94.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 484.
- [32
+e 494.
+ [37
 
 ]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 484.
+t line 494.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
@@ -1955,15 +1968,15 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 484. on input line 4
-84.
+Package pdftex.def Info: 3d_vogels.png  used on input line 494. on input line 4
+94.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 484.
- [33
+e 494.
+ [38
 
 ]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 484.
+t line 494.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
@@ -1975,15 +1988,15 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 484. on input line 4
-84.
+Package pdftex.def Info: 3d_vogels.png  used on input line 494. on input line 4
+94.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 484.
- [34
+e 494.
+ [39
 
 ]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 484.
+t line 494.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
@@ -1995,15 +2008,15 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 484. on input line 4
-84.
+Package pdftex.def Info: 3d_vogels.png  used on input line 494. on input line 4
+94.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 484.
- [35
+e 494.
+ [40
 
 ]
 Package svg Info: Last page of `./svg-inkscape/vogels_svg-tex.pdf' is 1 on inpu
-t line 484.
+t line 494.
 
 (./svg-inkscape/vogels_svg-tex.pdf_tex
 File: ./svg-inkscape/vogels_svg-tex.pdf Graphic file (type pdf)
@@ -2015,26 +2028,15 @@ Package pdftex.def Info: Requested size: 88.49811pt x 88.4979pt on input line 5
 )
 File: 3d_vogels.png Graphic file (type png)
 <use 3d_vogels.png>
-Package pdftex.def Info: 3d_vogels.png  used on input line 484. on input line 4
-84.
+Package pdftex.def Info: 3d_vogels.png  used on input line 494. on input line 4
+94.
 Package pdftex.def Info: Requested size: 115.62994pt x 115.62994pt on input lin
-e 484.
- [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
+e 494.
+ [41
 
 ] [42
 
-]
-[43
+] [43
 
 ] [44
 
@@ -2043,62 +2045,76 @@ e 484.
 ] [46
 
 ]
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-[47
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 526.
+ [47
 
 ]
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
 [48
 
-]
+] [49
 
-LaTeX Warning: Command \r invalid in math mode on input line 528.
+] [50
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-[49
+] [51
 
 ]
 
-LaTeX Warning: Command \r invalid in math mode on input line 528.
+LaTeX Warning: Command \r invalid in math mode on input line 538.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-[50
-
-]
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-[51
-
-]
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 528.
+LaTeX Warning: Command \r invalid in math mode on input line 538.
 
 [52
 
-] [53
+]
 
-] [54
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+[53
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+[54
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+[55
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+[56
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 538.
+
+[57
+
+] [58
+
+] [59
 
 ]
 \tf@nav=\write9
@@ -2110,29 +2126,23 @@ LaTeX Warning: Command \r invalid in math mode on input line 528.
 \tf@snm=\write11
 \openout11 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 548.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 211A14C73C98E7258CE8BC2BFBAD6B57;821.
 
-
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: 982702AACA6780D29183944A2ADBA75D;434
-(rerunfilecheck)             After:  4C4E98474E14BB5207FDE71636EA31AA;820.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 39497 strings out of 494350
- 863336 string characters out of 6168763
- 1035812 words of memory out of 5000000
- 42069 multiletter control sequences out of 15000+600000
+ 39506 strings out of 494350
+ 862916 string characters out of 6168763
+ 1036104 words of memory out of 5000000
+ 42076 multiletter control sequences out of 15000+600000
  561898 words of font info for 92 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
  64i,15n,99p,10375b,1317s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2154,10 +2164,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
 uhvr8a.pfb>
-Output written on presentation.pdf (54 pages, 585958 bytes).
+Output written on presentation.pdf (59 pages, 540775 bytes).
 PDF statistics:
- 3085 PDF objects out of 3580 (max. 8388607)
- 2887 compressed objects within 29 object streams
- 128 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3329 PDF objects out of 3580 (max. 8388607)
+ 3127 compressed objects within 32 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 419 words of extra memory for PDF output out of 10000 (max. 10000000)
 

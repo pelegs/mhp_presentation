@@ -101,8 +101,8 @@
 \date{\today}
 \author[Pelg Bar Sapir]
 {
-    Peleg Bar Sapir\inst{1} \and \\
-    Under supervision of Prof. Maria Andrea Mroginski\inst{2}
+    Peleg Bar Sapir\inst{1} \and \\ ~\\
+    Under supervision of\\Prof. Maria Andrea Mroginski\inst{2}
 }
 \institute[Freie Universit\"{a}t Berlin, Techniche Universit\"{a} Berlin]
 {
@@ -129,29 +129,29 @@
 \section{Introduction}
 \subsection{Hydrophobicity and log P}
 \begin{frame}{Hydrophobicity and log P}
-	\tikzset{every node/.append style={scale=0.6}, grow cyclic}
-    \tikzset{level 1/.append style={sibling angle=50, level distance = 250mm}}
-    \tikzset{level 2/.append style={sibling angle=20, level distance = 125mm}}
+	\tikzset{every node/.append style={scale=0.7}, grow cyclic}
+    \tikzset{level 1/.append style={sibling angle=50, level distance=250mm}}
+    \tikzset{level 2/.append style={sibling angle=20, level distance=125mm}}
 	\centering
-	\begin{tikzpicture}[scale=0.6]
+	\begin{tikzpicture}[scale=0.7]
 		\path[mindmap, concept color=purple!20, text=black]
-		node[concept] {Intermolecular interactions}
+		node[concept, font=\fontsize{16pt}{15pt}\selectfont] {Intermolecular interactions}
 		[clockwise from=0]
 		child[concept color=green!40] {
 			node[concept] {Electrostatic interactions}
-			child { node[concept] {Hydrogen bonds} }
-			child { node[concept] {Charged interactions} }
-			child { node[concept] {Dipole interactions} }
+			child { node[concept, font=\fontsize{8pt}{7pt}\selectfont] {Hydrogen bonds} }
+			child { node[concept, font=\fontsize{8pt}{7pt}\selectfont] {Charged interactions} }
+			child { node[concept, font=\fontsize{8pt}{7pt}\selectfont] {Dipole interactions} }
 		}
 		child[concept color=blue!40, rotate=-10] {
 			node[concept] {Pauli repulsion}
-			child { node[concept] {Steric forces} }
-			child { node[concept] {Born repulsion} }
+			child { node[concept, font=\fontsize{8pt}{7pt}\selectfont] {Steric forces} }
+			child { node[concept, font=\fontsize{8pt}{7pt}\selectfont] {Born repulsion} }
 		}
 		child[concept color=red!40, rotate=-20] {
 			node[concept] {Electron distribution}
-			child { node[concept] {Hydrophobic interactions} }
-			child { node[concept] {Hydrophilic interactions} }
+			child { node[concept, font=\fontsize{8pt}{7pt}\selectfont] {Hydrophobic interactions} }
+			child { node[concept, font=\fontsize{8pt}{7pt}\selectfont] {Hydrophilic interactions} }
 		};
 	\end{tikzpicture}
 \end{frame}
@@ -164,14 +164,17 @@
 	\end{tcolorbox}
 	\begin{itemize}
         \setlength\itemsep{1.5em}
-		\uncover<2->{\item Usually water and octanol}
+		\uncover<2->{\item Commonly used: water and octanol}
 		\uncover<3->{\item Can be measured at an \alert{ionized} or \alert{unionized} state}
-		\uncover<3->{\item $\log P_{\text{octanol/water}}=\log\left(\frac{\left[\text{solute}\right]_{\text{water}}}{\left[\text{solute}\right]_{\text{octanol}}}\right)$}
+		\uncover<4->{\item $\log P_{\text{octanol/water}}=\log\left(\frac{\left[\text{solute}\right]_{\text{water}}}{\left[\text{solute}\right]_{\text{octanol}}}\right)$}
+		\uncover<5->{\item Hydrophobicity \alert{increases} with the (common) $\log P$}
 	\end{itemize}
 \end{frame}
 
 \section{Molecular Hydrophobicity Potential}
 \subsection{What is it?}
+\begin{frame}{What is MHP}
+\end{frame}
 
 \subsection{Potential}
 \subsubsection{General form}
@@ -179,7 +182,7 @@
 \begin{frame}{The MHP Formula}
 
     \centering
-    \includesvg[scale=0.1]{mhp_visual1}
+    \includegraphics[scale=0.125]{mhp_visual1.eps}
 
     \begin{equation*}
         \text{MHP}\left(\mathbf{x'}\right)=
