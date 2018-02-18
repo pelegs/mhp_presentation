@@ -19,80 +19,10 @@
 \usepackage{verbatim}
 
 \usepackage{tikz}
-\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math,ipe,calc,mindmap}
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math,calc,mindmap}
 \tikzset{>=stealth}
 \newcommand{\tikzmark}[3][]{\tikz[remember picture,baseline] \node [anchor=base,#1,](#2) {#3};}
 \def\centerarc[#1](#2)(#3:#4:#5){\draw[#1]($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5);}
-\tikzstyle{ipe stylesheet} = [
-  ipe import,
-  even odd rule,
-  line join=round,
-  line cap=butt,
-  ipe pen normal/.style={line width=0.4},
-  ipe pen heavier/.style={line width=0.8},
-  ipe pen fat/.style={line width=1.2},
-  ipe pen ultrafat/.style={line width=2},
-  ipe pen normal,
-  ipe mark normal/.style={ipe mark scale=3},
-  ipe mark large/.style={ipe mark scale=5},
-  ipe mark small/.style={ipe mark scale=2},
-  ipe mark tiny/.style={ipe mark scale=1.1},
-  ipe mark normal,
-  /pgf/arrow keys/.cd,
-  ipe arrow normal/.style={scale=7},
-  ipe arrow large/.style={scale=10},
-  ipe arrow small/.style={scale=5},
-  ipe arrow tiny/.style={scale=3},
-  ipe arrow normal,
-  /tikz/.cd,
-  ipe arrows, % update arrows
-  <->/.tip = ipe normal,
-  ipe dash normal/.style={dash pattern=},
-  ipe dash dashed/.style={dash pattern=on 4bp off 4bp},
-  ipe dash dotted/.style={dash pattern=on 1bp off 3bp},
-  ipe dash dash dotted/.style={dash pattern=on 4bp off 2bp on 1bp off 2bp},
-  ipe dash dash dot dotted/.style={dash pattern=on 4bp off 2bp on 1bp off 2bp on 1bp off 2bp},
-  ipe dash normal,
-  ipe node/.append style={font=\normalsize},
-  ipe stretch normal/.style={ipe node stretch=1},
-  ipe stretch normal,
-  ipe opacity 10/.style={opacity=0.1},
-  ipe opacity 30/.style={opacity=0.3},
-  ipe opacity 50/.style={opacity=0.5},
-  ipe opacity 75/.style={opacity=0.75},
-  ipe opacity opaque/.style={opacity=1},
-  ipe opacity opaque,
-]
-
-\definecolor{red}{rgb}{1,0,0}
-\definecolor{green}{rgb}{0,1,0}
-\definecolor{blue}{rgb}{0,0,1}
-\definecolor{yellow}{rgb}{1,1,0}
-\definecolor{orange}{rgb}{1,0.647,0}
-\definecolor{gold}{rgb}{1,0.843,0}
-\definecolor{purple}{rgb}{0.627,0.125,0.941}
-\definecolor{gray}{rgb}{0.745,0.745,0.745}
-\definecolor{brown}{rgb}{0.647,0.165,0.165}
-\definecolor{navy}{rgb}{0,0,0.502}
-\definecolor{pink}{rgb}{1,0.753,0.796}
-\definecolor{seagreen}{rgb}{0.18,0.545,0.341}
-\definecolor{turquoise}{rgb}{0.251,0.878,0.816}
-\definecolor{violet}{rgb}{0.933,0.51,0.933}
-\definecolor{darkblue}{rgb}{0,0,0.545}
-\definecolor{darkcyan}{rgb}{0,0.545,0.545}
-\definecolor{darkgray}{rgb}{0.663,0.663,0.663}
-\definecolor{darkgreen}{rgb}{0,0.392,0}
-\definecolor{darkmagenta}{rgb}{0.545,0,0.545}
-\definecolor{darkorange}{rgb}{1,0.549,0}
-\definecolor{darkred}{rgb}{0.545,0,0}
-\definecolor{lightblue}{rgb}{0.678,0.847,0.902}
-\definecolor{lightcyan}{rgb}{0.878,1,1}
-\definecolor{lightgray}{rgb}{0.827,0.827,0.827}
-\definecolor{lightgreen}{rgb}{0.565,0.933,0.565}
-\definecolor{lightyellow}{rgb}{1,1,0.878}
-\definecolor{black}{rgb}{0,0,0}
-\definecolor{white}{rgb}{1,1,1}
-\tcbset{highlight math style={enhanced, colframe=blue!20!black, colback=white, arc=4pt, boxrule=0.5pt}}
 
 \title[Molecular Hydrophobicity Potential]
 {%
@@ -320,101 +250,103 @@
 \subsubsection{Solvent Accesible Surface}
 \begin{frame}{Solvent Accesible Surface}
     \begin{itemize}
-        \item The surface around a molecule accesible to solvent molecules
-    \end{itemize}
-        \centering
-        \uncover<2->{
-            \begin{tikzpicture}[ipe stylesheet, scale=.75]
+        \uncover<1->{\item The surface around a molecule accesible to solvent molecules}
+        \uncover<2->{\item[] \centering
+            \begin{tikzpicture}[scale=0.5]
                 % Scale, distances, coordinates and radii
-                \def\scal{0.2}
-                \def\dOH{195*\scal}
-                \def\dOC{220*\scal}
-                \def\RP{120*\scal}
-                \coordinate (O) at (230,670);
-                \def\RO{152*\scal}
+                \def\scal{1.0}
+                \def\dOH{1.95*\scal}
+                \def\dOC{2.20*\scal}
+                \def\RP{1.20*\scal}
+                \coordinate (O) at (2.30,6.70);
+                \def\RO{1.52*\scal}
                 \def\ROP{\RO+\RP}	
                 \coordinate (H) at ($(O)+(\dOH,0)$);
-                \def\RH{120*\scal}
+                \def\RH{1.20*\scal}
                 \def\RHP{\RH+\RP}	
                 \coordinate (C) at ($(O)-(\dOC,\dOC)$);
-                \def\RC{170*\scal}
+                \def\RC{1.70*\scal}
                 \def\RCP{\RC+\RP}
+                \pgfmathsetmacro\pang{-95}
+                \pgfmathsetmacro\Px{cos(\pang)*(\RH+\RP)}
+                \pgfmathsetmacro\Py{sin(\pang)*(\RH+\RP)}
+
 
                 % Cut radii+probe (should be parameterized...)
-                \centerarc[ipe pen heavier, fill=lightblue, dashed](O)(0:365:54);
-                \centerarc[ipe pen heavier, fill=lightblue, dashed](H)(-105:105:48);
-                \centerarc[ipe pen heavier, fill=lightblue, dashed](C)(98:352:58);
+                \centerarc[thick, fill=blue!10, dashed](O)(0:365:2.72);
+                \centerarc[thick, fill=blue!10, dashed](H)(-105:105:2.4);
+                \centerarc[thick, fill=blue!10, dashed](C)(98:352:2.9);
 
                 % Atoms	
-                \filldraw[ipe pen fat, fill=red]
+                \filldraw[very thick, fill=red]
                 (O) circle[radius=\RO];
-                \filldraw[ipe pen fat, fill=white]
+                \filldraw[very thick, fill=white]
                 (H) circle[radius=\RH];
-                \draw[-, thick] ($(H)+(\RH,0)$) --++(\RP,0);
-                \draw[->] ($(H)+(65,20)$) --($(H)+(3*\RH/2,5)$);
-                \node[] at ($(H)+(85,25)$) {$R_{\text{probe}}$};
-                \filldraw[ipe pen fat, fill=gray]
+                \filldraw[very thick, fill=gray]
                 (C) circle[radius=\RC];
-                \draw[-, thick] (C) --++(-\RC,0);
-                \node[] at ($(C)+(-8,8)$) {$R_{\text{vdW}}$};
+                \draw[->, thick] (C) --++(-\RC,0);
+                \filldraw[fill=black] (C) circle (0.1);
+                \node[] at ($(C)+(-.5,.5)$) {$R_{\text{vdW}}$};
+                \draw[thick, opacity=0.3, red, dashed] ($(H) + (\Px,\Py)$) circle (\RP);
+                \filldraw[fill=red] ($(H) + (\Px,\Py)$) circle (0.1);
+                \node[red] at ($(H) + (\Px,1.7*\Py)$) {probe};
             \end{tikzpicture}
-        }
-    \begin{itemize}
-        \uncover<3->{\item For water molecules usually $r=1.4\left[\text{\AA}\right]$}
+            }
+        \uncover<3->{\item[] (For water molecules usually $r=1.4\left[\text{\AA}\right]$)}
     \end{itemize}
 \end{frame}
 
 \begin{frame}{How to Create the Solvent Accesible Surface?}
 	\centering
-	\begin{tikzpicture}[ipe stylesheet, scale=.75]
-		% Scale, distances, coordinates and radii
-		\def\scal{0.2}
-		\def\dOH{195*\scal}
-		\def\dOC{220*\scal}
-		\def\RP{120*\scal}
-		\coordinate (O) at (230,670);
-		\def\RO{152*\scal}
-		\def\ROP{\RO+\RP}	
-		\coordinate (H) at ($(O)+(\dOH,0)$);
-		\def\RH{120*\scal}
-		\def\RHP{\RH+\RP}	
-		\coordinate (C) at ($(O)-(\dOC,\dOC)$);
-		\def\RC{170*\scal}
-		\def\RCP{\RC+\RP}
+	\begin{tikzpicture}[scale=.5]
+        % Scale, distances, coordinates and radii
+        \def\scal{1.0}
+        \def\dOH{1.95*\scal}
+        \def\dOC{2.20*\scal}
+        \def\RP{1.20*\scal}
+        \coordinate (O) at (2.30,6.70);
+        \def\RO{1.52*\scal}
+        \def\ROP{\RO+\RP}	
+        \coordinate (H) at ($(O)+(\dOH,0)$);
+        \def\RH{1.20*\scal}
+        \def\RHP{\RH+\RP}	
+        \coordinate (C) at ($(O)-(\dOC,\dOC)$);
+        \def\RC{1.70*\scal}
+        \def\RCP{\RC+\RP}
 	
 		% Full radii+probe	
-		\uncover<5-8>{\draw[ipe pen heavier]
+		\uncover<5-8>{\draw[thick]
 				      (O) circle[radius=\ROP];}
-		\uncover<6-8>{\draw[ipe pen heavier]
+		\uncover<6-8>{\draw[thick]
 				      (H) circle[radius=\RHP];}
-		\uncover<7-8>{\draw[ipe pen heavier]
+		\uncover<7-8>{\draw[thick]
 					  (C) circle[radius=\RCP];}
-		
+
 		% Cut radii+probe (should be parameterized...)
-		\uncover<9- >{\centerarc[ipe pen heavier, fill=white](O)(0:365:54);}
-		\uncover<8-8>{\centerarc[ipe pen heavier, red](O)(-58:60:54);}
-		\uncover<8-8>{\centerarc[ipe pen heavier, red](O)(165:283:54);}
-		\uncover<9- >{\centerarc[ipe pen heavier, fill=white](H)(-105:105:48);}
-		\uncover<8-8>{\centerarc[ipe pen heavier, red](H)(105:255:48);}
-		\uncover<9- >{\centerarc[ipe pen heavier, fill=white](C)(98:352:58);}
-		\uncover<8-8>{\centerarc[ipe pen heavier, red](C)(-8:98:58);}
+		\uncover<9- >{\centerarc[thick, fill=white](O)(0:365:2.72);}
+		\uncover<8-8>{\centerarc[thick, red](O)(-58:60:2.72);}
+		\uncover<8-8>{\centerarc[thick, red](O)(165:283:2.72);}
+		\uncover<9- >{\centerarc[thick, fill=white](H)(-105:105:2.4);}
+		\uncover<8-8>{\centerarc[thick, red](H)(105:255:2.4);}
+		\uncover<9- >{\centerarc[thick, fill=white](C)(98:352:2.9);}
+		\uncover<8-8>{\centerarc[thick, red](C)(-8:98:2.9);}
 
 		% Atoms	
-		\uncover<3->{\filldraw[ipe pen fat, fill=red]
+		\uncover<3->{\filldraw[very thick, fill=red]
 		(O) circle[radius=\RO];}
-		\uncover<3->{\filldraw[ipe pen fat, fill=white]
+		\uncover<3->{\filldraw[very thick, fill=white]
 		(H) circle[radius=\RH];}
-		\uncover<3->{\filldraw[ipe pen fat, fill=gray]
+		\uncover<3->{\filldraw[very thick, fill=gray]
 		(C) circle[radius=\RC];}
 		
 		% Points
-		\uncover<1-2>{\coordinate (DV) at (0,10);}
+		\uncover<1-2>{\coordinate (DV) at (0,0.75);}
 		\uncover<1-2>{\node[] at ($(O)-(DV)$) {O};}
-		\uncover<1-2>{\filldraw[black] (O) circle [radius=1];}
+		\uncover<1-2>{\filldraw[black] (O) circle [radius=0.1];}
 		\uncover<1-2>{\node[] at ($(H)-(DV)$) {H};}
-		\uncover<1-2>{\filldraw[black] (H) circle [radius=1];}
+		\uncover<1-2>{\filldraw[black] (H) circle [radius=0.1];}
 		\uncover<1-2>{\node[] at ($(C)-(DV)$) {C};}
-		\uncover<1-2>{\filldraw[black] (C) circle [radius=1];}
+		\uncover<1-2>{\filldraw[black] (C) circle [radius=0.1];}
 	\end{tikzpicture}
 	
 	\begin{enumerate}
@@ -643,7 +575,7 @@
 \end{frame}
 
 \section*{Thankyou}
-\begin{Frame}
-\end{Frame}
+\begin{frame}
+\end{frame}
 
 \end{document}

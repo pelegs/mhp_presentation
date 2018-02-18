@@ -36,12 +36,12 @@
 \headcommand {\slideentry {2}{2}{6}{21/21}{Potential}{0}}
 \headcommand {\beamer@framepages {21}{21}}
 \headcommand {\beamer@subsectionentry {0}{2}{3}{22}{Surface}}\headcommand {\beamer@subsectionpages {13}{21}}
-\headcommand {\beamer@subsubsectionentry {0}{2}{3}{1}{22}{Solvent accesible surface}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{1}{22}{Solvent Accesible Surface}}
 \headcommand {\slideentry {2}{3}{1}{22/24}{Surface}{0}}
 \headcommand {\beamer@framepages {22}{24}}
 \headcommand {\slideentry {2}{3}{2}{25/33}{Surface}{0}}
 \headcommand {\beamer@framepages {25}{33}}
-\headcommand {\beamer@subsubsectionentry {0}{2}{3}{2}{34}{Evenly distributed points}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{2}{34}{Evenly Distributed Points}}
 \headcommand {\slideentry {2}{3}{3}{34/38}{Surface}{0}}
 \headcommand {\beamer@framepages {34}{38}}
 \headcommand {\slideentry {2}{3}{4}{39/44}{Surface}{0}}
@@ -85,8 +85,20 @@
 \headcommand {\beamer@framepages {79}{79}}
 \headcommand {\slideentry {4}{2}{6}{80/80}{An Example System}{0}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\beamer@partpages {1}{80}}
-\headcommand {\beamer@subsectionpages {73}{80}}
-\headcommand {\beamer@sectionpages {61}{80}}
-\headcommand {\beamer@documentpages {80}}
-\headcommand {\def \inserttotalframenumber {30}}
+\headcommand {\slideentry {4}{2}{7}{81/86}{An Example System}{0}}
+\headcommand {\beamer@framepages {81}{86}}
+\headcommand {\sectionentry {5}{References}{87}{References}{0}}
+\headcommand {\beamer@sectionpages {61}{86}}
+\headcommand {\beamer@subsectionpages {73}{86}}
+\headcommand {\slideentry {5}{0}{1}{87/87}{}{0}}
+\headcommand {\beamer@framepages {87}{87}}
+\headcommand {\sectionentry {6}{Thankyou}{88}{Thankyou}{0}}
+\headcommand {\beamer@sectionpages {87}{87}}
+\headcommand {\beamer@subsectionpages {87}{87}}
+\headcommand {\slideentry {6}{0}{1}{88/88}{}{0}}
+\headcommand {\beamer@framepages {88}{88}}
+\headcommand {\beamer@partpages {1}{88}}
+\headcommand {\beamer@subsectionpages {88}{88}}
+\headcommand {\beamer@sectionpages {88}{88}}
+\headcommand {\beamer@documentpages {88}}
+\headcommand {\def \inserttotalframenumber {33}}

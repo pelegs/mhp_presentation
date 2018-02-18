@@ -8,8 +8,8 @@
 \beamer@subsubsectionintoc {2}{2}{2}{Force Constants}{17}{0}{2}
 \beamer@subsubsectionintoc {2}{2}{3}{Distance function}{21}{0}{2}
 \beamer@subsectionintoc {2}{3}{Surface}{22}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{1}{Solvent accesible surface}{22}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{2}{Evenly distributed points}{34}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{1}{Solvent Accesible Surface}{22}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{2}{Evenly Distributed Points}{34}{0}{2}
 \beamer@subsubsectionintoc {2}{3}{3}{Integration}{45}{0}{2}
 \beamer@sectionintoc {3}{Program}{50}{0}{3}
 \beamer@subsectionintoc {3}{1}{What are we interested in?}{50}{0}{3}

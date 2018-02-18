@@ -1,0 +1,45 @@
+\documentclass[11pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,math,ipe,calc,mindmap}
+\tikzset{>=stealth}
+\newcommand{\tikzmark}[3][]{\tikz[remember picture,baseline] \node [anchor=base,#1,](#2) {#3};}
+\definecolor{lightblue}{rgb}{0.678,0.847,0.902}
+\def\centerarc[#1](#2)(#3:#4:#5){\draw[#1]($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5);}
+
+\begin{document}
+\begin[scale=.05]{tikzpicture}
+% Scale, distances, coordinates and radii
+\def\scal{0.2}
+\def\dOH{195*\scal}
+\def\dOC{220*\scal}
+\def\RP{120*\scal}
+\coordinate (O) at (230,670);
+\def\RO{152*\scal}
+\def\ROP{\RO+\RP}	
+\coordinate (H) at ($(O)+(\dOH,0)$);
+\def\RH{120*\scal}
+\def\RHP{\RH+\RP}	
+\coordinate (C) at ($(O)-(\dOC,\dOC)$);
+\def\RC{170*\scal}
+\def\RCP{\RC+\RP}
+
+% Cut radii+probe (should be parameterized...)
+    \centerarc[thick, fill=lightblue, dashed](O)(0:365:54);
+    \centerarc[thick, fill=lightblue, dashed](H)(-105:105:48);
+    \centerarc[thick, fill=lightblue, dashed](C)(98:352:58);
+
+    % Atoms	
+    \filldraw[thick, fill=red]
+    (O) circle[radius=\RO];
+    \filldraw[thick, fill=white]
+    (H) circle[radius=\RH];
+    \draw[-, thick] ($(H)+(\RH,0)$) --++(\RP,0);
+    \draw[->] ($(H)+(65,20)$) --($(H)+(3*\RH/2,5)$);
+    \node[] at ($(H)+(85,25)$) {$R_{\text{probe}}$};
+\filldraw[thick, fill=gray]
+(C) circle[radius=\RC];
+\draw[-, thick] (C) --++(-\RC,0);
+\node[] at ($(C)+(-8,8)$) {$R_{\text{vdW}}$};
+\filldraw[thick, fill=red!20, dashed] ($(H)+(\RH+\RP,0)$) circle (\RP);
+\end{tikzpicture}
+\end{document}
