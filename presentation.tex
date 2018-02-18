@@ -255,7 +255,7 @@
                 & \underline{Hydrogen attached to}:              &         \\
                 46  & $\ce{C_{sp^{3}}}$, no $\ce{X}$ in $\alpha$ &  0.7341 \\
                 47  & $\ce{C_{sp^{2}}}$                          &  0.6301 \\
-                50  & $\ce{X}$                                   & -0.1036 \\
+                50  & Heteroatom $\ce{X}$                        & -0.1036 \\
                 52  & $\ce{C_{sp^{3}}}$, 1 $\ce{X}$ in $\alpha$  &  0.6666 \\
                 54  & $\ce{C_{sp^{3}}}$, 3 $\ce{X}$ in $\alpha$  &  0.6338 \\
                 \hline
@@ -286,8 +286,8 @@
             \begin{tabular}{l l r}
                 Type & Description & $f_i$ value \\
                 \hline
-                66   & Primary amine                          & -0.5427 \\
-                67   & Secondary amine                        & -0.3168 \\
+                66   & $\ce{N}$ in Primary amine              & -0.5427 \\
+                67   & $\ce{N}$ in Secondary amine            & -0.3168 \\
                 81   & $\ce{F}$ attached to $\ce{C_{sp^{3}}}$ &  0.4797 \\
                 106  & $\ce{S}$ in $\ce{R-SH}$   (thiol)      &  1.0520 \\
                 119  & $\ce{P}$ in $\ce{PR_{3}}$ (phosphine)  & -0.7941 \\
@@ -317,8 +317,8 @@
 \end{frame}
 
 \subsection{Surface}
-\subsubsection{Solvent accesible surface}
-\begin{frame}{Solvent accesible surface}
+\subsubsection{Solvent Accesible Surface}
+\begin{frame}{Solvent Accesible Surface}
     \begin{itemize}
         \item The surface around a molecule accesible to solvent molecules
     \end{itemize}
@@ -426,8 +426,8 @@
 	\end{enumerate}
 \end{frame}
 
-\subsubsection{Evenly distributed points}
-\begin{frame}{Evenly distributed points}
+\subsubsection{Evenly Distributed Points}
+\begin{frame}{Evenly Distributed Points}
     \centering
     How to distribute $N$ points on a surface of a sphere?\\ ~\\ ~\\
     \begin{columns}
@@ -467,7 +467,7 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Evenly distributed points}
+\begin{frame}{Evenly Distributed Points}
     \centering
     Solution: \alert{Vogel's method}\\
     \begin{columns}
@@ -576,6 +576,16 @@
 		\includegraphics[scale=0.75]{graph_zwitterions_normalized.eps}
 	\end{figure}
 \end{frame}
+\begin{frame}{Validation via Known $\log P$ Values}
+	\begin{itemize}
+        \setlength\itemsep{1.5em}
+		\uncover<2->{\item The validation shows a reasonable qualitative correlation to real data.}
+		\uncover<3->{\item Performed in water (with structural optimization), the results became more accurate.}
+		\uncover<4->{\item The environment did not match experiments, which could affect the accuracy.}
+		\uncover<5->{\item Amino acids are small molecules, each error becomes more significant.}
+		\uncover<6->{\item Larger trajectories will sample conformational space better.}
+	\end{itemize}
+\end{frame}
 
 \subsection{An Example System}
 \begin{frame}{An Example System}
@@ -617,5 +627,23 @@
 		\includegraphics[scale=0.75]{LYS03_graph.pdf}
 	\end{figure}
 \end{frame}
+\begin{frame}{MHP Change Over Time}
+	\begin{itemize}
+        \setlength\itemsep{1.5em}
+		\uncover<2->{\item The validation shows a reasonable qualitative correlation to real data.}
+		\uncover<3->{\item Performed in water (with structural optimization), the results became more accurate.}
+		\uncover<4->{\item The environment did not match experiments, which could affect the accuracy.}
+		\uncover<5->{\item Amino acids are small molecules, each error becomes more significant.}
+		\uncover<6->{\item Larger trajectories will sample conformational space better.}
+	\end{itemize}
+\end{frame}
+
+\section*{References}
+\begin{frame}{References}
+\end{frame}
+
+\section*{Thankyou}
+\begin{Frame}
+\end{Frame}
 
 \end{document}
