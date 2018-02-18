@@ -1,19 +1,19 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Hydrophobicity and log P}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Partition Coefficient}{4}{0}{1}
-\beamer@sectionintoc {2}{Molecular Hydrophobicity Potential}{9}{0}{2}
-\beamer@subsectionintoc {2}{1}{What is it?}{9}{0}{2}
-\beamer@subsectionintoc {2}{2}{Potential}{10}{0}{2}
-\beamer@subsubsectionintoc {2}{2}{1}{General form}{10}{0}{2}
-\beamer@subsubsectionintoc {2}{2}{2}{Force Constants}{14}{0}{2}
-\beamer@subsubsectionintoc {2}{2}{3}{Distance function}{18}{0}{2}
-\beamer@subsectionintoc {2}{3}{Surface}{19}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{1}{Solvent accesible surface}{19}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{2}{Evenly distributed points}{31}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{3}{Integration}{42}{0}{2}
-\beamer@sectionintoc {3}{Program}{47}{0}{3}
-\beamer@subsectionintoc {3}{1}{What are we interested in?}{47}{0}{3}
-\beamer@subsectionintoc {3}{2}{Program Specifications}{47}{0}{3}
-\beamer@sectionintoc {4}{Results}{58}{0}{4}
-\beamer@subsectionintoc {4}{1}{Validation via Known log p Values}{58}{0}{4}
-\beamer@subsectionintoc {4}{2}{An Example System}{59}{0}{4}
+\beamer@subsectionintoc {1}{2}{Partition Coefficient}{5}{0}{1}
+\beamer@sectionintoc {2}{Molecular Hydrophobicity Potential}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{What is it?}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Potential}{13}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{General form}{13}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{2}{Force Constants}{17}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{3}{Distance function}{21}{0}{2}
+\beamer@subsectionintoc {2}{3}{Surface}{22}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{1}{Solvent accesible surface}{22}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{2}{Evenly distributed points}{34}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{3}{Integration}{45}{0}{2}
+\beamer@sectionintoc {3}{Program}{50}{0}{3}
+\beamer@subsectionintoc {3}{1}{What are we interested in?}{50}{0}{3}
+\beamer@subsectionintoc {3}{2}{Program Specifications}{50}{0}{3}
+\beamer@sectionintoc {4}{Results}{61}{0}{4}
+\beamer@subsectionintoc {4}{1}{Validation via Known log p Values}{61}{0}{4}
+\beamer@subsectionintoc {4}{2}{An Example System}{67}{0}{4}

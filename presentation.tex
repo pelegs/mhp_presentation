@@ -156,6 +156,9 @@
 	\end{tikzpicture}
 \end{frame}
 
+\begin{frame}{Hydrophilic/Hydrophobic Interactions}
+\end{frame}
+
 \subsection{Partition Coefficient}
 \begin{frame}{Partition Coefficient}
 	\centering
@@ -173,14 +176,19 @@
 
 \section{Molecular Hydrophobicity Potential}
 \subsection{What is it?}
-\begin{frame}{What is MHP}
+\begin{frame}{What is Molecular Hydrophobicity Potential (MHP)?}
+	\begin{itemize}
+        \setlength\itemsep{1.5em}
+		\uncover<1->{\item By measuring the $\log P$ of many (ca. 30,000) compounds\footnote{Ghose et al, J. Phys. Chem. A 1998, 102, 3762-3772}, single atoms can be assigned local "force" values.}
+		\uncover<2->{\item Combining these values with a distance-depended decay function, a potential can be constructed.}
+		\uncover<3->{\item This potential predicts the local $\log P$ behaviour of fragments of a molecule.}
+	\end{itemize}
 \end{frame}
 
 \subsection{Potential}
 \subsubsection{General form}
 
 \begin{frame}{The MHP Formula}
-
     \centering
     \includegraphics[scale=0.125]{mhp_visual1.eps}
 
@@ -540,9 +548,66 @@
 \section{Results}
 \subsection{Validation via Known log p Values}
 \begin{frame}{Validation via Known $\log P$ Values}
+	\begin{itemize}
+        \setlength\itemsep{1.5em}
+		\uncover<2->{\item By integrating and comparing to known $\log P$ values, a correlation can be measured.}
+		\uncover<3->{\item A groups of amino acids of varying hydrophobicity where simulated and their MHP calculated.}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Validation via Known $\log P$ Values}
+	\centering
+	\begin{figure}[h!]
+		\caption{Validation in vacuum (5 frames per molecule)\footnote{MD simulation using NAMD, performed by Dr. Tillmann Utesch}, $R^{2}=0.668$}
+		\includegraphics[scale=0.75]{graph_zwitterions_vacuum.eps}
+	\end{figure}
+\end{frame}
+\begin{frame}{Validation via Known $\log P$ Values}
+	\centering
+	\begin{figure}[h!]
+		\caption{Validation in water + structural optimization (10 frames per molecule), $R^{2}=0.748$}
+		\includegraphics[scale=0.75]{graph_zwitterions_water.eps}
+	\end{figure}
+\end{frame}
+\begin{frame}{Validation via Known $\log P$ Values}
+	\centering
+	\begin{figure}[h!]
+		\caption{Validation in water + structural optimization + SAS normalization (10 frames per molecule), $R^{2}=0.760$}
+		\includegraphics[scale=0.75]{graph_zwitterions_normalized.eps}
+	\end{figure}
 \end{frame}
 
 \subsection{An Example System}
 \begin{frame}{An Example System}
+	An existing trajectory (100 frames) of a protein-membrane system\footnote{Trajectory provided by Dr. Alejandra de Miguel Catalina} was analazyed.\\
+	\begin{itemize}
+        \setlength\itemsep{1.5em}
+		\uncover<1->{\item The peptide: OP-145, a Cathelicidin derivative with improved properties.}
+		\uncover<2->{\item The interaction mechanism pathway was studied by means of all-atom simulation.}
+		\uncover<3->{\item The membrane used for the study consists of a mixture of two lipids, PG and PE, in agreement with experimental measurements.}
+	\end{itemize}
 \end{frame}
+\begin{frame}{A video of the system}
+\end{frame}
+\begin{frame}{MHP Change Over Time}
+	\centering
+	\begin{figure}[h!]
+		\caption{MHP change over time for ARG-7}
+		\includegraphics[scale=0.75]{ARG07_graph.pdf}
+	\end{figure}
+\end{frame}
+\begin{frame}{MHP Change Over Time}
+	\centering
+	\begin{figure}[h!]
+		\caption{MHP change over time for ARG-24}
+		\includegraphics[scale=0.75]{ARG24_graph.pdf}
+	\end{figure}
+\end{frame}
+\begin{frame}{MHP Change Over Time}
+	\centering
+	\begin{figure}[h!]
+		\caption{MHP change over time for PRO-22}
+		\includegraphics[scale=0.75]{PRO22_graph.pdf}
+	\end{figure}
+\end{frame}
+
 \end{document}
